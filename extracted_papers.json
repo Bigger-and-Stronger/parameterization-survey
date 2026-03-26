@@ -127,7 +127,7 @@
             "bibtex": "@article{10.1145/3731216,\nauthor = {Capouellez, Ryan and Singh, Rodrigo and Heistermann, Martin and Bommes, David and Zorin, Denis},\ntitle = {Feature-Aligned Parametrization in Penner Coordinates},\nyear = {2025},\nissue_date = {August 2025},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {44},\nnumber = {4},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3731216},\ndoi = {10.1145/3731216},\njournal = {ACM Trans. Graph.},\nmonth = jul,\narticleno = {110},\nnumpages = {21},\nkeywords = {parameterization, feature alignment, seamless, newton's method, cone metric, intrinsic triangulation, penner coordinates, quadrangulation}\n}",
             "code": "",
             "data": "",
-            "project": "",
+            "project": "https://www.algohex.eu/publications/feature-aligned-parametrization-in-penner-coordinates/",
             "slide": "",
             "supplemental": "",
             "tags": [
@@ -989,7 +989,7 @@
         "filename": "2023 TOG - Galaxy Maps - Localized Foliations for Bijective Volumetric Mapping.md",
         "properties": {
             "bibtex": "@article{10.1145/3592410,\r\nauthor = {Hinderink, Steffen and Campen, Marcel},\r\ntitle = {Galaxy Maps: Localized Foliations for Bijective Volumetric Mapping},\r\nyear = {2023},\r\nissue_date = {August 2023},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {42},\r\nnumber = {4},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3592410},\r\ndoi = {10.1145/3592410},\r\nabstract = {A method is presented to compute volumetric maps and parametrizations of objects over 3D domains. As a key feature, continuity and bijectivity are ensured by construction. Arbitrary objects of ball topology, represented as tetrahedral meshes, are supported. Arbitrary convex as well as star-shaped domains are supported. Full control over the boundary mapping is provided. The method is based on the technique of simplicial foliations, generalized to a broader class of domain shapes and applied adaptively in a novel localized manner. This increases flexibility as well as efficiency over the state of the art, while maintaining reliability in guaranteeing map bijectivity.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\narticleno = {129},\r\nnumpages = {16},\r\nkeywords = {volumetric parametrization, homeomorphism, star-shaped, foliation, shelling, tetrahedral mesh}\r\n}",
-            "code": "",
+            "code": "https://github.com/SteffenHinderink/GalaxyMaps",
             "data": "",
             "project": "",
             "slide": "",
