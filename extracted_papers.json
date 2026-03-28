@@ -1,8 +1,8 @@
 [
     {
-        "filename": "1997 - 3D geometric metamorphosis based on harmonic map.md",
+        "filename": "2017 TOG - Spherical orbifold tutte embeddings.md",
         "properties": {
-            "bibtex": "@INPROCEEDINGS{626179,\r\n  author={Kanai, T. and Suzuki, H. and Kimura, F.},\r\n  booktitle={Proceedings The Fifth Pacific Conference on Computer Graphics and Applications}, \r\n  title={3D geometric metamorphosis based on harmonic map}, \r\n  year={1997},\r\n  volume={},\r\n  number={},\r\n  pages={97-104},\r\n  keywords={Topology;Interpolation;Shape control;Machinery;Animation;Computer graphics;Application software;Rendering (computer graphics);Isosurfaces;Data mining},\r\n  doi={10.1109/PCCGA.1997.626179}}",
+            "bibtex": "@article{10.1145/3072959.3073615,\r\nauthor = {Aigerman, Noam and Kovalsky, Shahar Z. and Lipman, Yaron},\r\ntitle = {Spherical orbifold tutte embeddings},\r\nyear = {2017},\r\nissue_date = {August 2017},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {36},\r\nnumber = {4},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3072959.3073615},\r\ndoi = {10.1145/3072959.3073615},\r\nabstract = {This work presents an algorithm for injectively parameterizing surfaces into spherical target domains called spherical orbifolds. Spherical orbifolds are cone surfaces that are generated from symmetry groups of the sphere. The surface is mapped the spherical orbifold via an extension of Tutte's embedding. This embedding is proven to be bijective under mild additional assumptions, which hold in all experiments performed.This work also completes the adaptation of Tutte's embedding to orbifolds of the three classic geometries - Euclidean, hyperbolic and spherical - where the first two were recently addressed.The spherical orbifold embeddings approximate conformal maps and require relatively low computational times. The constant positive curvature of the spherical orbifolds, along with the flexibility of their cone angles, enables producing embeddings with lower isometric distortion compared to their Euclidean counterparts, a fact that makes spherical orbifolds a natural candidate for surface parameterization.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\narticleno = {90},\r\nnumpages = {13},\r\nkeywords = {orbifolds, spherical parameterization, tutte's embedding}\r\n}",
             "code": "",
             "data": "",
             "project": "",
@@ -11,66 +11,17 @@
             "tags": [
                 "parameterization"
             ],
-            "teaser": "Pasted image 20260323102819.png"
+            "teaser": "Pasted image 20260323222144.png"
         },
         "bibtex_parsed": {
-            "title": "3D geometric metamorphosis based on harmonic map",
-            "author": "Kanai, T. and Suzuki, H. and Kimura, F.",
-            "venue": "Proceedings The Fifth Pacific Conference on Computer Graphics and Applications",
-            "doi_url": "https://doi.org/10.1109/PCCGA.1997.626179",
-            "year": "1997",
-            "month": ""
-        },
-        "img_path": ".img/1997 - 3D geometric metamorphosis based on harmonic map_Pasted image 20260323102819.png"
-    },
-    {
-        "filename": "2019 CGF - Practical Foldover-Free Volumetric Mapping Construction.md",
-        "properties": {
-            "bibtex": "@article{https://doi.org/10.1111/cgf.13837,\r\nauthor = {Su, Jian-Ping and Fu, Xiao-Ming and Liu, Ligang},\r\ntitle = {Practical Foldover-Free Volumetric Mapping Construction},\r\njournal = {Computer Graphics Forum},\r\nvolume = {38},\r\nnumber = {7},\r\npages = {287-297},\r\nkeywords = {CCS Concepts, • Computing methodologies → Shape modeling},\r\ndoi = {https://doi.org/10.1111/cgf.13837},\r\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13837},\r\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13837},\r\nabstract = {Abstract In this paper, we present a practically robust method for computing foldover-free volumetric mappings with hard linear constraints. Central to this approach is a projection algorithm that monotonically and efficiently decreases the distance from the mapping to the bounded conformal distortion mapping space. After projection, the conformal distortion of the updated mapping tends to be below the given bound, thereby significantly reducing foldovers. Since it is non-trivial to define an optimal bound, we introduce a practical conformal distortion bound generation scheme to facilitate subsequent projections. By iteratively generating conformal distortion bounds and trying to project mappings into bounded conformal distortion spaces monotonically, our algorithm achieves high-quality foldover-free volumetric mappings with strong practical robustness and high efficiency. Compared with existing methods, our method computes mesh-based and meshless volumetric mappings with no prescribed conformal distortion bounds. We demonstrate the efficacy and efficiency of our method through a variety of geometric processing tasks.},\r\nyear = {2019}\r\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization",
-                "volumetric_mapping"
-            ],
-            "teaser": "Pasted image 20260323103600.png"
-        },
-        "bibtex_parsed": {
-            "title": "Practical Foldover-Free Volumetric Mapping Construction",
-            "author": "Su, Jian-Ping and Fu, Xiao-Ming and Liu, Ligang",
-            "venue": "Computer Graphics Forum",
-            "doi_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13837",
-            "year": "2019",
-            "month": ""
-        },
-        "img_path": ".img/2019 CGF - Practical Foldover-Free Volumetric Mapping Construction_Pasted image 20260323103600.png"
-    },
-    {
-        "filename": "2015 TOG - Orbifold Tutte embeddings.md",
-        "properties": {
-            "bibtex": "@article{10.1145/2816795.2818099,\r\nauthor = {Aigerman, Noam and Lipman, Yaron},\r\ntitle = {Orbifold Tutte embeddings},\r\nyear = {2015},\r\nissue_date = {November 2015},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {34},\r\nnumber = {6},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/2816795.2818099},\r\ndoi = {10.1145/2816795.2818099},\r\nabstract = {Injective parameterizations of surface meshes are vital for many applications in Computer Graphics, Geometry Processing and related fields. Tutte's embedding, and its generalization to convex combination maps, are among the most popular approaches for computing parameterizations of surface meshes into the plane, as they guarantee injectivity, and their computation only requires solving a sparse linear system. However, they are only applicable to disk-type and toric surface meshes.In this paper we suggest a generalization of Tutte's embedding to other surface topologies, and in particular the common, yet untreated case, of sphere-type surfaces. The basic idea is to enforce certain boundary conditions on the parameterization so as to achieve a Euclidean orbifold structure. The orbifold-Tutte embedding is a seamless, globally bijective parameterization that, similarly to the classic Tutte embedding, only requires solving a sparse linear system for its computation.In case the cotangent weights are used, the orbifold-Tutte embedding globally minimizes the Dirichlet energy and is shown to approximate conformal and four-point quasiconformal mappings. As far as we are aware, this is the first fully-linear method that produces bijective approximations to conformal mappings.Aside from parameterizations, the orbifold-Tutte embedding can be used to generate bijective inter-surface mappings with three or four landmarks and symmetric patterns on sphere-type surfaces.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = nov,\r\narticleno = {190},\r\nnumpages = {12},\r\nkeywords = {conformal maps, convex combination map, discrete harmonic, injective parameterization, tutte embedding}\r\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260323222000.png"
-        },
-        "bibtex_parsed": {
-            "title": "Orbifold Tutte embeddings",
-            "author": "Aigerman, Noam and Lipman, Yaron",
+            "title": "Spherical orbifold tutte embeddings",
+            "author": "Aigerman, Noam and Kovalsky, Shahar Z. and Lipman, Yaron",
             "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/2816795.2818099",
-            "year": "2015",
-            "month": "November"
+            "doi_url": "https://doi.org/10.1145/3072959.3073615",
+            "year": "2017",
+            "month": "July"
         },
-        "img_path": ".img/2015 TOG - Orbifold Tutte embeddings_Pasted image 20260323222000.png"
+        "img_path": ".img/2017 TOG - Spherical orbifold tutte embeddings_Pasted image 20260323222144.png"
     },
     {
         "filename": "2023 CGF - VOLMAP：a Large Scale Benchmark for Volume Mappings to Simple Base Domains.md",
@@ -98,126 +49,128 @@
         "img_path": ".img/2023 CGF - VOLMAP：a Large Scale Benchmark for Volume Mappings to Simple Base Domains_Pasted image 20241004111316.png"
     },
     {
-        "filename": "2008 CGF - Spectral Conformal Parameterization.md",
+        "filename": "2019 TOG - Seamless Parametrization with Arbitrary Cones for Arbitrary Genus.md",
         "properties": {
-            "bibtex": "@article{https://doi.org/10.1111/j.1467-8659.2008.01289.x,\nauthor = {Mullen, Patrick and Tong, Yiying and Alliez, Pierre and Desbrun, Mathieu},\ntitle = {Spectral Conformal Parameterization},\njournal = {Computer Graphics Forum},\nvolume = {27},\nnumber = {5},\npages = {1487-1494},\ndoi = {https://doi.org/10.1111/j.1467-8659.2008.01289.x},\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2008.01289.x},\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2008.01289.x},\nabstract = {Abstract We present a spectral approach to automatically and efficiently obtain discrete free-boundary conformal parameterizations of triangle mesh patches, without the common artifacts due to positional constraints on vertices and without undue bias introduced by sampling irregularity. High-quality parameterizations are computed through a constrained minimization of a discrete weighted conformal energy by finding the largest eigenvalue/eigenvector of a generalized eigenvalue problem involving sparse, symmetric matrices. We demonstrate that this novel and robust approach improves on previous linear techniques both quantitatively and qualitatively.},\nyear = {2008}\n}",
+            "bibtex": "@article{10.1145/3360511,\nauthor = {Campen, Marcel and Shen, Hanxiao and Zhou, Jiaran and Zorin, Denis},\ntitle = {Seamless Parametrization with Arbitrary Cones for Arbitrary Genus},\nyear = {2019},\nissue_date = {February 2020},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {39},\nnumber = {1},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3360511},\ndoi = {10.1145/3360511},\njournal = {ACM Trans. Graph.},\nmonth = dec,\narticleno = {2},\nnumpages = {19},\nkeywords = {holonomy, cone metric, Conformal}\n}",
             "code": "",
             "data": "",
             "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260317135213.png"
-        },
-        "bibtex_parsed": {
-            "title": "Spectral Conformal Parameterization",
-            "author": "Mullen, Patrick and Tong, Yiying and Alliez, Pierre and Desbrun, Mathieu",
-            "venue": "Computer Graphics Forum",
-            "doi_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2008.01289.x",
-            "year": "2008",
-            "month": ""
-        },
-        "img_path": ".img/2008 CGF - Spectral Conformal Parameterization_Pasted image 20260317135213.png"
-    },
-    {
-        "filename": "2025 TOG - Feature-Aligned Parametrization in Penner Coordinates.md",
-        "properties": {
-            "bibtex": "@article{10.1145/3731216,\nauthor = {Capouellez, Ryan and Singh, Rodrigo and Heistermann, Martin and Bommes, David and Zorin, Denis},\ntitle = {Feature-Aligned Parametrization in Penner Coordinates},\nyear = {2025},\nissue_date = {August 2025},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {44},\nnumber = {4},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3731216},\ndoi = {10.1145/3731216},\njournal = {ACM Trans. Graph.},\nmonth = jul,\narticleno = {110},\nnumpages = {21},\nkeywords = {parameterization, feature alignment, seamless, newton's method, cone metric, intrinsic triangulation, penner coordinates, quadrangulation}\n}",
-            "code": "",
-            "data": "",
-            "project": "https://www.algohex.eu/publications/feature-aligned-parametrization-in-penner-coordinates/",
             "slide": "",
             "supplemental": "",
             "tags": [
                 "parameterization",
-                "penner",
-                "quadrangulate"
+                "seamless"
             ],
-            "teaser": "Pasted image 20260201213714.png"
+            "teaser": "Pasted image 20260307111155.png"
         },
         "bibtex_parsed": {
-            "title": "Feature-Aligned Parametrization in Penner Coordinates",
-            "author": "Capouellez, Ryan and Singh, Rodrigo and Heistermann, Martin and Bommes, David and Zorin, Denis",
+            "title": "Seamless Parametrization with Arbitrary Cones for Arbitrary Genus",
+            "author": "Campen, Marcel and Shen, Hanxiao and Zhou, Jiaran and Zorin, Denis",
             "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/3731216",
-            "year": "2025",
-            "month": "July"
-        },
-        "img_path": ".img/2025 TOG - Feature-Aligned Parametrization in Penner Coordinates_Pasted image 20260201213714.png"
-    },
-    {
-        "filename": "2003 TOG - Matchmaker - constructing constrained texture maps.md",
-        "properties": {
-            "bibtex": "@article{10.1145/882262.882271,\r\nauthor = {Kraevoy, Vladislav and Sheffer, Alla and Gotsman, Craig},\r\ntitle = {Matchmaker: constructing constrained texture maps},\r\nyear = {2003},\r\nissue_date = {July 2003},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {22},\r\nnumber = {3},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/882262.882271},\r\ndoi = {10.1145/882262.882271},\r\nabstract = {Texture mapping enhances the visual realism of 3D models by adding fine details. To achieve the best results, it is often necessary to force a correspondence between some of the details of the texture and the features of the model.The most common method for mapping texture onto 3D meshes is to use a planar parameterization of the mesh. This, however, does not reflect any special correspondence between the mesh geometry and the texture. The Matchmaker algorithm presented here forces user-defined feature correspondence for planar parameterization of meshes. This is achieved by adding positional constraints to the planar parameterization. Matchmaker allows users to introduce scores of constraints while maintaining a valid one-to-one mapping between the embedding and the 3D surface. Matchmaker's constraint mechanism can be used for other applications requiring parameterization besides texture mapping, such as morphing and remeshing.Matchmaker begins with an unconstrained planar embedding of the 3D mesh generated by conventional methods. It moves the constrained vertices to the required positions by matching a triangulation of these positions to a triangulation of the planar mesh formed by paths between constrained vertices. The matching triangulations are used to generate a new parameterization that satisfies the constraints while minimizing the deviation from the original 3D geometry.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\npages = {326–333},\r\nnumpages = {8},\r\nkeywords = {parameterization, texture mapping, triangle meshes}\r\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260322225020.png"
-        },
-        "bibtex_parsed": {
-            "title": "Matchmaker: constructing constrained texture maps",
-            "author": "Kraevoy, Vladislav and Sheffer, Alla and Gotsman, Craig",
-            "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/882262.882271",
-            "year": "2003",
-            "month": "July"
-        },
-        "img_path": ".img/2003 TOG - Matchmaker - constructing constrained texture maps_Pasted image 20260322225020.png"
-    },
-    {
-        "filename": "2005 - ABF++ - fast and robust angle based flattening.md",
-        "properties": {
-            "bibtex": "@article{10.1145/1061347.1061354,\nauthor = {Sheffer, Alla and L\\'{e}vy, Bruno and Mogilnitsky, Maxim and Bogomyakov, Alexander},\ntitle = {ABF++: fast and robust angle based flattening},\nyear = {2005},\nissue_date = {April 2005},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {24},\nnumber = {2},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/1061347.1061354},\ndoi = {10.1145/1061347.1061354},\nabstract = {Conformal parameterization of mesh models has numerous applications in geometry processing. Conformality is desirable for remeshing, surface reconstruction, and many other mesh processing applications. Subject to the conformality requirement, these applications typically benefit from parameterizations with smaller stretch. The Angle Based Flattening (ABF) method, presented a few years ago, generates provably valid conformal parameterizations with low stretch. However, it is quite time-consuming and becomes error prone for large meshes due to numerical error accumulation. This work presents ABF++, a highly efficient extension of the ABF method, that overcomes these drawbacks while maintaining all the advantages of ABF. ABF++ robustly parameterizes meshes of hundreds of thousands and millions of triangles within minutes. It is based on three main components: (1) a new numerical solution technique that dramatically reduces the dimension of the linear systems solved at each iteration, speeding up the solution; (2) a new robust scheme for reconstructing the 2D coordinates from the angle space solution that avoids the numerical instabilities which hindered the ABF reconstruction scheme; and (3) an efficient hierarchical solution technique. The speedup with (1) does not come at the expense of greater distortion. The hierarchical technique (3) enables parameterization of models with millions of faces in seconds at the expense of a minor increase in parametric distortion. The parameterization computed by ABF++ are provably valid, that is they contain no flipped triangles. As a result of these extensions, the ABF++ method is extremely suitable for robustly and efficiently parameterizing models for geometry-processing applications.},\njournal = {ACM Trans. Graph.},\nmonth = apr,\npages = {311–330},\nnumpages = {20},\nkeywords = {parameterization, conformality, Mesh processing}\n}",
-            "code": "https://github.com/BrunoLevy/geogram",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260317135043.png"
-        },
-        "bibtex_parsed": {
-            "title": "ABF++: fast and robust angle based flattening",
-            "author": "Sheffer, Alla and L\\'evy, Bruno and Mogilnitsky, Maxim and Bogomyakov, Alexander",
-            "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/1061347.1061354",
-            "year": "2005",
-            "month": "April"
-        },
-        "img_path": ".img/2005 - ABF++ - fast and robust angle based flattening_Pasted image 20260317135043.png"
-    },
-    {
-        "filename": "2019 TOG - Distortion-minimizing injective maps between surfaces.md",
-        "properties": {
-            "bibtex": "@article{10.1145/3355089.3356519,\r\nauthor = {Schmidt, Patrick and Born, Janis and Campen, Marcel and Kobbelt, Leif},\r\ntitle = {Distortion-minimizing injective maps between surfaces},\r\nyear = {2019},\r\nissue_date = {December 2019},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {38},\r\nnumber = {6},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3355089.3356519},\r\ndoi = {10.1145/3355089.3356519},\r\nabstract = {The problem of discrete surface parametrization, i.e. mapping a mesh to a planar domain, has been investigated extensively. We address the more general problem of mapping between surfaces. In particular, we provide a formulation that yields a map between two disk-topology meshes, which is continuous and injective by construction and which locally minimizes intrinsic distortion. A common approach is to express such a map as the composition of two maps via a simple intermediate domain such as the plane, and to independently optimize the individual maps. However, even if both individual maps are of minimal distortion, there is potentially high distortion in the composed map. In contrast to many previous works, we minimize distortion in an end-to-end manner, directly optimizing the quality of the composed map. This setting poses additional challenges due to the discrete nature of both the source and the target domain. We propose a formulation that, despite the combinatorial aspects of the problem, allows for a purely continuous optimization. Further, our approach addresses the non-smooth nature of discrete distortion measures in this context which hinders straightforward application of off-the-shelf optimization techniques. We demonstrate that, despite the challenges inherent to the more involved setting, discrete surface-to-surface maps can be optimized effectively.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = nov,\r\narticleno = {156},\r\nnumpages = {15},\r\nkeywords = {cross-parametrization, embedding, inter-surface mapping, intersection mesh, surface parametrization}\r\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260323102617.png"
-        },
-        "bibtex_parsed": {
-            "title": "Distortion-minimizing injective maps between surfaces",
-            "author": "Schmidt, Patrick and Born, Janis and Campen, Marcel and Kobbelt, Leif",
-            "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/3355089.3356519",
+            "doi_url": "https://doi.org/10.1145/3360511",
             "year": "2019",
-            "month": "November"
+            "month": "December"
         },
-        "img_path": ".img/2019 TOG - Distortion-minimizing injective maps between surfaces_Pasted image 20260323102617.png"
+        "img_path": ".img/2019 TOG - Seamless Parametrization with Arbitrary Cones for Arbitrary Genus_Pasted image 20260307111155.png"
+    },
+    {
+        "filename": "2020 - A Mesh Generation Perspective on Robust Mappings.md",
+        "properties": {
+            "bibtex": "@inproceedings{10.2312:stag.20201234,\r\nbooktitle = {Smart Tools and Apps for Graphics - Eurographics Italian Chapter Conference},\r\neditor = {Biasotti, Silvia and Pintus, Ruggero and Berretti, Stefano},\r\ntitle = {{A Mesh Generation Perspective on Robust Mappings}},\r\nauthor = {Livesu, Marco},\r\nyear = {2020},\r\npublisher = {The Eurographics Association},\r\nISSN = {2617-4855},\r\nISBN = {978-3-03868-124-3},\r\nDOI = {10.2312/stag.20201234}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization",
+                "volumetric_mapping"
+            ],
+            "teaser": "Pasted image 20260323104045.png"
+        },
+        "bibtex_parsed": {
+            "title": "A Mesh Generation Perspective on Robust Mappings",
+            "author": "Livesu, Marco",
+            "venue": "Smart Tools and Apps for Graphics - Eurographics Italian Chapter Conference",
+            "doi_url": "https://doi.org/10.2312/stag.20201234",
+            "year": "2020",
+            "month": ""
+        },
+        "img_path": ".img/2020 - A Mesh Generation Perspective on Robust Mappings_Pasted image 20260323104045.png"
+    },
+    {
+        "filename": "2007 CGF - QuadCover - Surface Parameterization using Branched Coverings.md",
+        "properties": {
+            "bibtex": "ad-cite\n@article{https://doi.org/10.1111/j.1467-8659.2007.01060.x,\nauthor = {Kälberer, Felix and Nieser, Matthias and Polthier, Konrad},\ntitle = {QuadCover - Surface Parameterization using Branched Coverings},\njournal = {Computer Graphics Forum},\nvolume = {26},\nnumber = {3},\npages = {375-384},\nkeywords = {I.3.5 Computer Graphics: Computational Geometry and Object Modeling, Hierarchy and geometric transformations, Geometric algorithms, languages, and systems},\ndoi = {https://doi.org/10.1111/j.1467-8659.2007.01060.x},\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2007.01060.x},\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2007.01060.x},\nyear = {2007}\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "quadrangulate",
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260301154805.png"
+        },
+        "bibtex_parsed": {
+            "title": "QuadCover - Surface Parameterization using Branched Coverings",
+            "author": "Kälberer, Felix and Nieser, Matthias and Polthier, Konrad",
+            "venue": "Computer Graphics Forum",
+            "doi_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2007.01060.x",
+            "year": "2007",
+            "month": ""
+        },
+        "img_path": ".img/2007 CGF - QuadCover - Surface Parameterization using Branched Coverings_Pasted image 20260301154805.png"
+    },
+    {
+        "filename": "2007 - Mesh Parameterization Methods and Their Applications.md",
+        "properties": {
+            "bibtex": "@article{sheffer2007mesh,\r\n  title={Mesh parameterization methods and their applications},\r\n  author={Sheffer, Alla and Praun, Emil and Rose, Kenneth},\r\n  journal={Foundations and trends in computer graphics and vision},\r\n  volume={2},\r\n  number={2},\r\n  pages={105--171},\r\n  year={2007},\r\n  publisher={Emerald Publishing Limited}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization",
+                "survey"
+            ],
+            "teaser": "Pasted image 20260323221725.png"
+        },
+        "bibtex_parsed": {
+            "title": "Mesh parameterization methods and their applications",
+            "author": "Sheffer, Alla and Praun, Emil and Rose, Kenneth",
+            "venue": "Foundations and trends in computer graphics and vision",
+            "doi_url": "",
+            "year": "2007",
+            "month": ""
+        },
+        "img_path": ".img/2007 - Mesh Parameterization Methods and Their Applications_Pasted image 20260323221725.png"
+    },
+    {
+        "filename": "1963 - How to draw a graph.md",
+        "properties": {
+            "bibtex": "@article{tutte1963draw,\r\n  title={How to draw a graph},\r\n  author={Tutte, William Thomas},\r\n  journal={Proceedings of the London Mathematical Society},\r\n  volume={3},\r\n  number={1},\r\n  pages={743--767},\r\n  year={1963},\r\n  publisher={Oxford University Press}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260323103712.png"
+        },
+        "bibtex_parsed": {
+            "title": "How to draw a graph",
+            "author": "Tutte, William Thomas",
+            "venue": "Proceedings of the London Mathematical Society",
+            "doi_url": "",
+            "year": "1963",
+            "month": ""
+        },
+        "img_path": ".img/1963 - How to draw a graph_Pasted image 20260323103712.png"
     },
     {
         "filename": "2023 TOG - Expansion Cones - A Progressive Volumetric Mapping Framework.md",
@@ -246,504 +199,110 @@
         "img_path": ".img/2023 TOG - Expansion Cones - A Progressive Volumetric Mapping Framework_Pasted image 20260319233420.png"
     },
     {
-        "filename": "2007 - Mesh Parameterization Methods and Their Applications.md",
+        "filename": "2023 TOG - Galaxy Maps - Localized Foliations for Bijective Volumetric Mapping.md",
         "properties": {
-            "bibtex": "@article{sheffer2007mesh,\r\n  title={Mesh parameterization methods and their applications},\r\n  author={Sheffer, Alla and Praun, Emil and Rose, Kenneth},\r\n  journal={Foundations and trends in computer graphics and vision},\r\n  volume={2},\r\n  number={2},\r\n  pages={105--171},\r\n  year={2007},\r\n  publisher={Emerald Publishing Limited}\r\n}",
-            "code": "",
+            "bibtex": "@article{10.1145/3592410,\r\nauthor = {Hinderink, Steffen and Campen, Marcel},\r\ntitle = {Galaxy Maps: Localized Foliations for Bijective Volumetric Mapping},\r\nyear = {2023},\r\nissue_date = {August 2023},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {42},\r\nnumber = {4},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3592410},\r\ndoi = {10.1145/3592410},\r\nabstract = {A method is presented to compute volumetric maps and parametrizations of objects over 3D domains. As a key feature, continuity and bijectivity are ensured by construction. Arbitrary objects of ball topology, represented as tetrahedral meshes, are supported. Arbitrary convex as well as star-shaped domains are supported. Full control over the boundary mapping is provided. The method is based on the technique of simplicial foliations, generalized to a broader class of domain shapes and applied adaptively in a novel localized manner. This increases flexibility as well as efficiency over the state of the art, while maintaining reliability in guaranteeing map bijectivity.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\narticleno = {129},\r\nnumpages = {16},\r\nkeywords = {volumetric parametrization, homeomorphism, star-shaped, foliation, shelling, tetrahedral mesh}\r\n}",
+            "code": "https://github.com/SteffenHinderink/GalaxyMaps",
             "data": "",
             "project": "",
             "slide": "",
             "supplemental": "",
             "tags": [
                 "parameterization",
-                "survey"
+                "volumetric_mapping"
             ],
-            "teaser": "Pasted image 20260323221725.png"
+            "teaser": "Pasted image 20260323104350.png"
         },
         "bibtex_parsed": {
-            "title": "Mesh parameterization methods and their applications",
-            "author": "Sheffer, Alla and Praun, Emil and Rose, Kenneth",
-            "venue": "Foundations and trends in computer graphics and vision",
-            "doi_url": "",
-            "year": "2007",
-            "month": ""
-        },
-        "img_path": ".img/2007 - Mesh Parameterization Methods and Their Applications_Pasted image 20260323221725.png"
-    },
-    {
-        "filename": "2020 CGF - Combinatorial construction of seamless parameter domains.md",
-        "properties": {
-            "bibtex": "@article{https://doi.org/10.1111/cgf.13922,\r\nauthor = {Zhou, J. and Tu, C. and Zorin, D. and Campen, M.},\r\ntitle = {Combinatorial Construction of Seamless Parameter Domains},\r\njournal = {Computer Graphics Forum},\r\nvolume = {39},\r\nnumber = {2},\r\npages = {179-190},\r\nkeywords = {CCS Concepts, • Computing methodologies → Computer graphics; Mesh models; Mesh geometry models; Shape modeling},\r\ndoi = {https://doi.org/10.1111/cgf.13922},\r\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13922},\r\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13922},\r\nabstract = {Abstract The problem of seamless parametrization of surfaces is of interest in the context of structured quadrilateral mesh generation and spline-based surface approximation. It has been tackled by a variety of approaches, commonly relying on continuous numerical optimization to ultimately obtain suitable parameter domains. We present a general combinatorial seamless parameter domain construction, free from the potential numerical issues inherent to continuous optimization techniques in practice. The domains are constructed as abstract polygonal complexes which can be embedded in a discrete planar grid space, as unions of unit squares. We ensure that the domain structure matches any prescribed parametrization singularities (cones) and satisfies seamlessness conditions. Surfaces of arbitrary genus are supported. Once a domain suitable for a given surface is constructed, a seamless and locally injective parametrization over this domain can be obtained using existing planar disk mapping techniques, making recourse to Tutte's classical embedding theorem.},\r\nyear = {2020}\r\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization",
-                "seamless"
-            ],
-            "teaser": "Pasted image 20260323102330.png"
-        },
-        "bibtex_parsed": {
-            "title": "Combinatorial Construction of Seamless Parameter Domains",
-            "author": "Zhou, J. and Tu, C. and Zorin, D. and Campen, M.",
-            "venue": "Computer Graphics Forum",
-            "doi_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13922",
-            "year": "2020",
-            "month": ""
-        },
-        "img_path": ".img/2020 CGF - Combinatorial construction of seamless parameter domains_Pasted image 20260323102330.png"
-    },
-    {
-        "filename": "2008 CGF - A Local-Global Approach to Mesh Parameterization.md",
-        "properties": {
-            "bibtex": "@article{https://doi.org/10.1111/j.1467-8659.2008.01290.x,\nauthor = {Liu, Ligang and Zhang, Lei and Xu, Yin and Gotsman, Craig and Gortler, Steven J.},\ntitle = {A Local/Global Approach to Mesh Parameterization},\njournal = {Computer Graphics Forum},\nvolume = {27},\nnumber = {5},\npages = {1495-1504},\nkeywords = {I.3.5 Computer Graphics: Computational Geometry and Object Modeling I.3.8 Computer Graphics: Application},\ndoi = {https://doi.org/10.1111/j.1467-8659.2008.01290.x},\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2008.01290.x},\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2008.01290.x},\nabstract = {Abstract We present a novel approach to parameterize a mesh with disk topology to the plane in a shape-preserving manner. Our key contribution is a local/global algorithm, which combines a local mapping of each 3D triangle to the plane, using transformations taken from a restricted set, with a global “stitch” operation of all triangles, involving a sparse linear system. The local transformations can be taken from a variety of families, e.g. similarities or rotations, generating different types of parameterizations. In the first case, the parameterization tries to force each 2D triangle to be an as-similar-as-possible version of its 3D counterpart. This is shown to yield results identical to those of the LSCM algorithm. In the second case, the parameterization tries to force each 2D triangle to be an as-rigid-as-possible version of its 3D counterpart. This approach preserves shape as much as possible. It is simple, effective, and fast, due to pre-factoring of the linear system involved in the global phase. Experimental results show that our approach provides almost isometric parameterizations and obtains more shape-preserving results than other state-of-the-art approaches. We present also a more general “hybrid” parameterization model which provides a continuous spectrum of possibilities, controlled by a single parameter. The two cases described above lie at the two ends of the spectrum. We generalize our local/global algorithm to compute these parameterizations. The local phase may also be accelerated by parallelizing the independent computations per triangle.},\nyear = {2008}\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260317143051.png"
-        },
-        "bibtex_parsed": {
-            "title": "A Local/Global Approach to Mesh Parameterization",
-            "author": "Liu, Ligang and Zhang, Lei and Xu, Yin and Gotsman, Craig and Gortler, Steven J.",
-            "venue": "Computer Graphics Forum",
-            "doi_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2008.01290.x",
-            "year": "2008",
-            "month": ""
-        },
-        "img_path": ".img/2008 CGF - A Local-Global Approach to Mesh Parameterization_Pasted image 20260317143051.png"
-    },
-    {
-        "filename": "2007 CGF - QuadCover - Surface Parameterization using Branched Coverings.md",
-        "properties": {
-            "bibtex": "ad-cite\n@article{https://doi.org/10.1111/j.1467-8659.2007.01060.x,\nauthor = {Kälberer, Felix and Nieser, Matthias and Polthier, Konrad},\ntitle = {QuadCover - Surface Parameterization using Branched Coverings},\njournal = {Computer Graphics Forum},\nvolume = {26},\nnumber = {3},\npages = {375-384},\nkeywords = {I.3.5 Computer Graphics: Computational Geometry and Object Modeling, Hierarchy and geometric transformations, Geometric algorithms, languages, and systems},\ndoi = {https://doi.org/10.1111/j.1467-8659.2007.01060.x},\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2007.01060.x},\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2007.01060.x},\nyear = {2007}\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "quadrangulate",
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260301154805.png"
-        },
-        "bibtex_parsed": {
-            "title": "QuadCover - Surface Parameterization using Branched Coverings",
-            "author": "Kälberer, Felix and Nieser, Matthias and Polthier, Konrad",
-            "venue": "Computer Graphics Forum",
-            "doi_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2007.01060.x",
-            "year": "2007",
-            "month": ""
-        },
-        "img_path": ".img/2007 CGF - QuadCover - Surface Parameterization using Branched Coverings_Pasted image 20260301154805.png"
-    },
-    {
-        "filename": "2000 - MIPS - An Efficient Global Parametrization Method.md",
-        "properties": {
-            "bibtex": "@article{hormann2000mips,\r\n  title={MIPS: An efficient global parametrization method},\r\n  author={Hormann, Kai and Greiner, G{\\\"u}nther},\r\n  year={2000}\r\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260323222704.png"
-        },
-        "bibtex_parsed": {
-            "title": "MIPS: An efficient global parametrization method",
-            "author": "Hormann, Kai and Greiner, G\\\"unther",
-            "venue": "",
-            "doi_url": "",
-            "year": "2000",
-            "month": ""
-        },
-        "img_path": ".img/2000 - MIPS - An Efficient Global Parametrization Method_Pasted image 20260323222704.png"
-    },
-    {
-        "filename": "2004 TOG - Cross-parameterization and compatible remeshing of 3D models.md",
-        "properties": {
-            "bibtex": "@article{10.1145/1015706.1015811,\r\nauthor = {Kraevoy, Vladislav and Sheffer, Alla},\r\ntitle = {Cross-parameterization and compatible remeshing of 3D models},\r\nyear = {2004},\r\nissue_date = {August 2004},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {23},\r\nnumber = {3},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/1015706.1015811},\r\ndoi = {10.1145/1015706.1015811},\r\nabstract = {Many geometry processing applications, such as morphing, shape blending, transfer of texture or material properties, and fitting template meshes to scan data, require a bijective mapping between two or more models. This mapping, or cross-parameterization, typically needs to preserve the shape and features of the parameterized models, mapping legs to legs, ears to ears, and so on. Most of the applications also require the models to be represented by compatible meshes, i.e. meshes with identical connectivity, based on the cross-parameterization. In this paper we introduce novel methods for shape preserving cross-parameterization and compatible remeshing. Our cross-parameterization method computes a low-distortion bijective mapping between models that satisfies user prescribed constraints. Using this mapping, the remeshing algorithm preserves the user-defined feature vertex correspondence and the shape correlation between the models. The remeshing algorithm generates output meshes with significantly fewer elements compared to previous techniques, while accurately approximating the input geometry. As demonstrated by the examples, the compatible meshes we construct are ideally suitable for morphing and other geometry processing applications.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = aug,\r\npages = {861–869},\r\nnumpages = {9},\r\nkeywords = {Modeling -- Mesh generation, Modeling -- Polygonal modeling, Modeling -- Shape blending/Morphing, Modeling -- Surface parameterization}\r\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260323222341.png"
-        },
-        "bibtex_parsed": {
-            "title": "Cross-parameterization and compatible remeshing of 3D models",
-            "author": "Kraevoy, Vladislav and Sheffer, Alla",
+            "title": "Galaxy Maps: Localized Foliations for Bijective Volumetric Mapping",
+            "author": "Hinderink, Steffen and Campen, Marcel",
             "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/1015706.1015811",
+            "doi_url": "https://doi.org/10.1145/3592410",
+            "year": "2023",
+            "month": "July"
+        },
+        "img_path": ".img/2023 TOG - Galaxy Maps - Localized Foliations for Bijective Volumetric Mapping_Pasted image 20260323104350.png"
+    },
+    {
+        "filename": "2023 - Tutte Embeddings of Tetrahedral Meshes.md",
+        "properties": {
+            "bibtex": "@article{alexa2025tutte,\r\n  title={Tutte embeddings of tetrahedral meshes},\r\n  author={Alexa, Marc},\r\n  journal={Discrete \\& Computational Geometry},\r\n  volume={73},\r\n  number={1},\r\n  pages={197--207},\r\n  year={2023},\r\n  publisher={Springer}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization",
+                "volumetric_mapping"
+            ],
+            "teaser": "Pasted image 20260323103825.png"
+        },
+        "bibtex_parsed": {
+            "title": "Tutte embeddings of tetrahedral meshes",
+            "author": "Alexa, Marc",
+            "venue": "Discrete \\& Computational Geometry",
+            "doi_url": "",
+            "year": "2023",
+            "month": ""
+        },
+        "img_path": ".img/2023 - Tutte Embeddings of Tetrahedral Meshes_Pasted image 20260323103825.png"
+    },
+    {
+        "filename": "2004 TOG - Inter-surface mapping.md",
+        "properties": {
+            "bibtex": "@article{10.1145/1015706.1015812,\r\nauthor = {Schreiner, John and Asirvatham, Arul and Praun, Emil and Hoppe, Hugues},\r\ntitle = {Inter-surface mapping},\r\nyear = {2004},\r\nissue_date = {August 2004},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {23},\r\nnumber = {3},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/1015706.1015812},\r\ndoi = {10.1145/1015706.1015812},\r\nabstract = {We consider the problem of creating a map between two arbitrary triangle meshes. Whereas previous approaches compose parametrizations over a simpler intermediate domain, we directly create and optimize a continuous map between the meshes. Map distortion is measured with a new symmetric metric, and is minimized during interleaved coarse-to-fine refinement of both meshes. By explicitly favoring low inter-surface distortion, we obtain maps that naturally align corresponding shape elements. Typically, the user need only specify a handful of feature correspondences for initial registration, and even these constraints can be removed during optimization. Our method robustly satisfies hard constraints if desired. Inter-surface mapping is shown using geometric and attribute morphs. Our general framework can also be applied to parametrize surfaces onto simplicial domains, such as coarse meshes (for semi-regular remeshing), and octahedron and toroidal domains (for geometry image remeshing). In these settings, we obtain better parametrizations than with previous specialized techniques, thanks to our fine-grain optimization.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = aug,\r\npages = {870–877},\r\nnumpages = {8},\r\nkeywords = {remeshing, shape morphing, surface parametrization}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260322104340.png"
+        },
+        "bibtex_parsed": {
+            "title": "Inter-surface mapping",
+            "author": "Schreiner, John and Asirvatham, Arul and Praun, Emil and Hoppe, Hugues",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/1015706.1015812",
             "year": "2004",
             "month": "August"
         },
-        "img_path": ".img/2004 TOG - Cross-parameterization and compatible remeshing of 3D models_Pasted image 20260323222341.png"
+        "img_path": ".img/2004 TOG - Inter-surface mapping_Pasted image 20260322104340.png"
     },
     {
-        "filename": "2011 CGF - CubeCover – Parameterization of 3D Volumes.md",
+        "filename": "2025 TOG - Feature-Aligned Parametrization in Penner Coordinates.md",
         "properties": {
-            "bibtex": "@article{https://doi.org/10.1111/j.1467-8659.2011.02014.x,\n\tauthor = {Nieser, M. and Reitebuch, U. and Polthier, K.},\n\ttitle = {CubeCover– Parameterization of 3D Volumes},\n\tjournal = {Computer Graphics Forum},\n\tvolume = {30},\n\tnumber = {5},\n\tpages = {1397-1406},\n\tkeywords = {I.3.5 Computer Graphics: Curve, surface, solid, and object representations—Computational Geometry and Object Modeling},\n\tdoi = {https://doi.org/10.1111/j.1467-8659.2011.02014.x},\n\turl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2011.02014.x},\n\teprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2011.02014.x},\n\tyear = {2011}\n}",
+            "bibtex": "@article{10.1145/3731216,\nauthor = {Capouellez, Ryan and Singh, Rodrigo and Heistermann, Martin and Bommes, David and Zorin, Denis},\ntitle = {Feature-Aligned Parametrization in Penner Coordinates},\nyear = {2025},\nissue_date = {August 2025},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {44},\nnumber = {4},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3731216},\ndoi = {10.1145/3731216},\njournal = {ACM Trans. Graph.},\nmonth = jul,\narticleno = {110},\nnumpages = {21},\nkeywords = {parameterization, feature alignment, seamless, newton's method, cone metric, intrinsic triangulation, penner coordinates, quadrangulation}\n}",
             "code": "",
             "data": "",
-            "project": "",
+            "project": "https://www.algohex.eu/publications/feature-aligned-parametrization-in-penner-coordinates/",
             "slide": "",
             "supplemental": "",
             "tags": [
                 "parameterization",
-                "hex_meshing",
-                "volumetric_mapping"
+                "penner",
+                "quadrangulate"
             ],
-            "teaser": "Pasted image 20250705201634.png"
+            "teaser": "Pasted image 20260201213714.png"
         },
         "bibtex_parsed": {
-            "title": "CubeCover– Parameterization of 3D Volumes",
-            "author": "Nieser, M. and Reitebuch, U. and Polthier, K.",
-            "venue": "Computer Graphics Forum",
-            "doi_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2011.02014.x",
-            "year": "2011",
-            "month": ""
-        },
-        "img_path": ".img/2011 CGF - CubeCover – Parameterization of 3D Volumes_Pasted image 20250705201634.png"
-    },
-    {
-        "filename": "2015 TOG - Computing locally injective mappings by advanced MIPS.md",
-        "properties": {
-            "bibtex": "@article{10.1145/2766938,\r\nauthor = {Fu, Xiao-Ming and Liu, Yang and Guo, Baining},\r\ntitle = {Computing locally injective mappings by advanced MIPS},\r\nyear = {2015},\r\nissue_date = {August 2015},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {34},\r\nnumber = {4},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/2766938},\r\ndoi = {10.1145/2766938},\r\nabstract = {Computing locally injective mappings with low distortion in an efficient way is a fundamental task in computer graphics. By revisiting the well-known MIPS (Most-Isometric ParameterizationS) method, we introduce an advanced MIPS method that inherits the local injectivity of MIPS, achieves as low as possible distortions compared to the state-of-the-art locally injective mapping techniques, and performs one to two orders of magnitude faster in computing a mesh-based mapping. The success of our method relies on two key components. The first one is an enhanced MIPS energy function that penalizes the maximal distortion significantly and distributes the distortion evenly over the domain for both mesh-based and meshless mappings. The second is a use of the inexact block coordinate descent method in mesh-based mapping in a way that efficiently minimizes the distortion with the capability not to be trapped early by the local minimum. We demonstrate the capability and superiority of our method in various applications including mesh parameterization, mesh-based and meshless deformation, and mesh improvement.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\narticleno = {71},\r\nnumpages = {12},\r\nkeywords = {parameterization, mesh improvement, locally injective mapping, inexact block coordinate descent methods, deformation}\r\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260323222820.png"
-        },
-        "bibtex_parsed": {
-            "title": "Computing locally injective mappings by advanced MIPS",
-            "author": "Fu, Xiao-Ming and Liu, Yang and Guo, Baining",
+            "title": "Feature-Aligned Parametrization in Penner Coordinates",
+            "author": "Capouellez, Ryan and Singh, Rodrigo and Heistermann, Martin and Bommes, David and Zorin, Denis",
             "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/2766938",
-            "year": "2015",
+            "doi_url": "https://doi.org/10.1145/3731216",
+            "year": "2025",
             "month": "July"
         },
-        "img_path": ".img/2015 TOG - Computing locally injective mappings by advanced MIPS_Pasted image 20260323222820.png"
-    },
-    {
-        "filename": "2017 TOG - Simplicial complex augmentation framework for bijective maps.md",
-        "properties": {
-            "bibtex": "@article{10.1145/3130800.3130895,\nauthor = {Jiang, Zhongshi and Schaefer, Scott and Panozzo, Daniele},\ntitle = {Simplicial complex augmentation framework for bijective maps},\nyear = {2017},\nissue_date = {December 2017},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {36},\nnumber = {6},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3130800.3130895},\ndoi = {10.1145/3130800.3130895},\njournal = {ACM Trans. Graph.},\nmonth = nov,\narticleno = {186},\nnumpages = {9}\n}",
-            "code": "https://github.com/jiangzhongshi/Scaffold-Map",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization",
-                "bijective"
-            ],
-            "teaser": "Pasted image 20260315212520.png"
-        },
-        "bibtex_parsed": {
-            "title": "Simplicial complex augmentation framework for bijective maps",
-            "author": "Jiang, Zhongshi and Schaefer, Scott and Panozzo, Daniele",
-            "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/3130800.3130895",
-            "year": "2017",
-            "month": "November"
-        },
-        "img_path": ".img/2017 TOG - Simplicial complex augmentation framework for bijective maps_Pasted image 20260315212520.png"
-    },
-    {
-        "filename": "1997 CAGD - Parametrization and smooth approximation of surface triangulations.md",
-        "properties": {
-            "bibtex": "@article{FLOATER1997231,\ntitle = {Parametrization and smooth approximation of surface triangulations},\njournal = {Computer Aided Geometric Design},\nvolume = {14},\nnumber = {3},\npages = {231-250},\nyear = {1997},\nissn = {0167-8396},\ndoi = {https://doi.org/10.1016/S0167-8396(96)00031-3},\nurl = {https://www.sciencedirect.com/science/article/pii/S0167839696000313},\nauthor = {Michael S. Floater},\nkeywords = {Surface triangulations, Approximation, Parametrization, Planar graphs, Straight-line drawing},\nabstract = {A method based on graph theory is investigated for creating global parametrizations for surface triangulations for the purpose of smooth surface fitting. The parametrizations, which are planar triangulations, are the solutions of linear systems based on convex combinations. A particular parametrization, called shape-preserving, is found to lead to visually smooth surface approximations.}\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260323221544.png"
-        },
-        "bibtex_parsed": {
-            "title": "Parametrization and smooth approximation of surface triangulations",
-            "author": "Michael S. Floater",
-            "venue": "Computer Aided Geometric Design",
-            "doi_url": "https://www.sciencedirect.com/science/article/pii/S0167839696000313",
-            "year": "1997",
-            "month": ""
-        },
-        "img_path": ".img/1997 CAGD - Parametrization and smooth approximation of surface triangulations_Pasted image 20260323221544.png"
-    },
-    {
-        "filename": "2009 TOG - Möbius voting for surface correspondence.md",
-        "properties": {
-            "bibtex": "@article{10.1145/1531326.1531378,\r\nauthor = {Lipman, Yaron and Funkhouser, Thomas},\r\ntitle = {M\\\"{o}bius voting for surface correspondence},\r\nyear = {2009},\r\nissue_date = {August 2009},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {28},\r\nnumber = {3},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/1531326.1531378},\r\ndoi = {10.1145/1531326.1531378},\r\nabstract = {The goal of our work is to develop an efficient, automatic algorithm for discovering point correspondences between surfaces that are approximately and/or partially isometric.Our approach is based on three observations. First, isometries are a subset of the M\\\"{o}bius group, which has low-dimensionality -- six degrees of freedom for topological spheres, and three for topological discs. Second, computing the M\\\"{o}bius transformation that interpolates any three points can be computed in closed-form after a mid-edge flattening to the complex plane. Third, deviations from isometry can be modeled by a transportation-type distance between corresponding points in that plane.Motivated by these observations, we have developed a M\\\"{o}bius Voting algorithm that iteratively: 1) samples a triplet of three random points from each of two point sets, 2) uses the M\\\"{o}bius transformations defined by those triplets to map both point sets into a canonical coordinate frame on the complex plane, and 3) produces \"votes\" for predicted correspondences between the mutually closest points with magnitude representing their estimated deviation from isometry. The result of this process is a fuzzy correspondence matrix, which is converted to a permutation matrix with simple matrix operations and output as a discrete set of point correspondences with confidence values.The main advantage of this algorithm is that it can find intrinsic point correspondences in cases of extreme deformation. During experiments with a variety of data sets, we find that it is able to find dozens of point correspondences between different object types in different poses fully automatically.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\narticleno = {72},\r\nnumpages = {12}\r\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260323102715.png"
-        },
-        "bibtex_parsed": {
-            "title": "M\\\"obius voting for surface correspondence",
-            "author": "Lipman, Yaron and Funkhouser, Thomas",
-            "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/1531326.1531378",
-            "year": "2009",
-            "month": "July"
-        },
-        "img_path": ".img/2009 TOG - Möbius voting for surface correspondence_Pasted image 20260323102715.png"
-    },
-    {
-        "filename": "2006 TOG - Periodic global parameterization.md",
-        "properties": {
-            "bibtex": "@article{10.1145/1183287.1183297,\nauthor = {Ray, Nicolas and Li, Wan Chiu and L\\'{e}vy, Bruno and Sheffer, Alla and Alliez, Pierre},\ntitle = {Periodic global parameterization},\nyear = {2006},\nissue_date = {October 2006},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {25},\nnumber = {4},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/1183287.1183297},\ndoi = {10.1145/1183287.1183297},\njournal = {ACM Trans. Graph.},\nmonth = oct,\npages = {1460–1485},\nnumpages = {26},\nkeywords = {parameterization, conformality, Mesh processing}\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "directional",
-                "integrable",
-                "parameterization",
-                "cross_field"
-            ],
-            "teaser": "Pasted image 20260215214409.png"
-        },
-        "bibtex_parsed": {
-            "title": "Periodic global parameterization",
-            "author": "Ray, Nicolas and Li, Wan Chiu and L\\'evy, Bruno and Sheffer, Alla and Alliez, Pierre",
-            "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/1183287.1183297",
-            "year": "2006",
-            "month": "October"
-        },
-        "img_path": ".img/2006 TOG - Periodic global parameterization_Pasted image 20260215214409.png"
-    },
-    {
-        "filename": "1998 - Non-distorted texture mapping for sheared triangulated meshes.md",
-        "properties": {
-            "bibtex": "@inproceedings{levy1998non,\n  title={Non-distorted texture mapping for sheared triangulated meshes},\n  author={L{\\'e}vy, Bruno and Mallet, Jean-Laurent},\n  booktitle={Proceedings of the 25th annual conference on Computer graphics and interactive techniques},\n  pages={343--352},\n  year={1998}\n}",
-            "code": "https://github.com/BrunoLevy/geogram",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260317135514.png"
-        },
-        "bibtex_parsed": {
-            "title": "Non-distorted texture mapping for sheared triangulated meshes",
-            "author": "L\\'evy, Bruno and Mallet, Jean-Laurent",
-            "venue": "Proceedings of the 25th annual conference on Computer graphics and interactive techniques",
-            "doi_url": "",
-            "year": "1998",
-            "month": ""
-        },
-        "img_path": ".img/1998 - Non-distorted texture mapping for sheared triangulated meshes_Pasted image 20260317135514.png"
-    },
-    {
-        "filename": "2021 TOG - Direct Seamless Parametrization.md",
-        "properties": {
-            "bibtex": "@article{10.1145/3439828,\r\nauthor = {Levi, Zohar},\r\ntitle = {Direct Seamless Parametrization},\r\nyear = {2021},\r\nissue_date = {February 2021},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {40},\r\nnumber = {1},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3439828},\r\ndoi = {10.1145/3439828},\r\nabstract = {We present a method for seamless surface parametrization. Recent popular methods first generate a cross-field, where curvature is concentrated at singular vertices. Next, in a separate step, the surface is laid out in the domain subject to derived seamlessness constraints. This decoupling of the process into two independent problems, each with its own objective, leads to suboptimal results. In contrast, our method solves both problems together using domain variables.The key ingredient to the robustness of our method is a rounding strategy based on local estimation. The insight is that testing a small patch to decide between two likely possibilities is a good estimator.Most distortion measures can be used with our method, which get minimized consistently throughout the pipeline. Our method also enables feature alignment, as well as alignment to principle curvatures, and isotropic and anisotropic scaling.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jan,\r\narticleno = {6},\r\nnumpages = {14},\r\nkeywords = {locally injective mappings, bounded distortion, Parametrization}\r\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization",
-                "seamless"
-            ],
-            "teaser": "Pasted image 20260323101925.png"
-        },
-        "bibtex_parsed": {
-            "title": "Direct Seamless Parametrization",
-            "author": "Levi, Zohar",
-            "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/3439828",
-            "year": "2021",
-            "month": "January"
-        },
-        "img_path": ".img/2021 TOG - Direct Seamless Parametrization_Pasted image 20260323101925.png"
-    },
-    {
-        "filename": "2024 CGF - Advancing Front Surface Mapping.md",
-        "properties": {
-            "bibtex": "@article{https://doi.org/10.1111/cgf.15026,\r\nauthor = {Livesu, M.},\r\ntitle = {Advancing Front Surface Mapping},\r\njournal = {Computer Graphics Forum},\r\nvolume = {43},\r\nnumber = {2},\r\npages = {e15026},\r\ndoi = {https://doi.org/10.1111/cgf.15026},\r\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.15026},\r\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.15026},\r\nabstract = {Abstract We present Advancing Front Mapping (AFM), a novel algorithm for the computation of injective maps to simple planar domains. AFM is inspired by the advancing front meshing paradigm, which is here revisited to operate on two embeddings at once, becoming a tool for compatible mesh generation. AFM extends the capabilities of existing robust approaches, supporting a broader set of embeddings (star-shaped polygons) with a direct approach, without resorting to intermediate constructions. Our method only relies on two topological operators (split and flip) and on the computation of segment intersections, thus permitting to compute a valid embedding without solving any numerical problem. AFM is therefore easy to implement, debug and deploy. This article is mainly focused on the presentation of the compatible advancing front idea and on the demonstration that the algorithm provably converges to an injective map. We also complement our theoretical analysis with an extensive practical validation, executing more than one billion advancing front moves on 36K mapping tasks.},\r\nyear = {2024}\r\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260323104155.png"
-        },
-        "bibtex_parsed": {
-            "title": "Advancing Front Surface Mapping",
-            "author": "Livesu, M.",
-            "venue": "Computer Graphics Forum",
-            "doi_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.15026",
-            "year": "2024",
-            "month": ""
-        },
-        "img_path": ".img/2024 CGF - Advancing Front Surface Mapping_Pasted image 20260323104155.png"
-    },
-    {
-        "filename": "2023 TOG - Metric Optimization in Penner Coordinates.md",
-        "properties": {
-            "bibtex": "@article{10.1145/3618394,\nauthor = {Capouellez, Ryan and Zorin, Denis},\ntitle = {Metric Optimization in Penner Coordinates},\nyear = {2023},\nissue_date = {December 2023},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {42},\nnumber = {6},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3618394},\ndoi = {10.1145/3618394},\njournal = {ACM Trans. Graph.},\nmonth = dec,\narticleno = {234},\nnumpages = {19},\nkeywords = {cone metrics, conformal mapping, discrete metrics, intrinsic triangulation, parametrization, penner coordinates}\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization",
-                "penner"
-            ],
-            "teaser": "Pasted image 20260201213846.png"
-        },
-        "bibtex_parsed": {
-            "title": "Metric Optimization in Penner Coordinates",
-            "author": "Capouellez, Ryan and Zorin, Denis",
-            "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/3618394",
-            "year": "2023",
-            "month": "December"
-        },
-        "img_path": ".img/2023 TOG - Metric Optimization in Penner Coordinates_Pasted image 20260201213846.png"
-    },
-    {
-        "filename": "2020 - A Mesh Generation Perspective on Robust Mappings.md",
-        "properties": {
-            "bibtex": "@inproceedings{10.2312:stag.20201234,\r\nbooktitle = {Smart Tools and Apps for Graphics - Eurographics Italian Chapter Conference},\r\neditor = {Biasotti, Silvia and Pintus, Ruggero and Berretti, Stefano},\r\ntitle = {{A Mesh Generation Perspective on Robust Mappings}},\r\nauthor = {Livesu, Marco},\r\nyear = {2020},\r\npublisher = {The Eurographics Association},\r\nISSN = {2617-4855},\r\nISBN = {978-3-03868-124-3},\r\nDOI = {10.2312/stag.20201234}\r\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization",
-                "volumetric_mapping"
-            ],
-            "teaser": "Pasted image 20260323104045.png"
-        },
-        "bibtex_parsed": {
-            "title": "A Mesh Generation Perspective on Robust Mappings",
-            "author": "Livesu, Marco",
-            "venue": "Smart Tools and Apps for Graphics - Eurographics Italian Chapter Conference",
-            "doi_url": "https://doi.org/10.2312/stag.20201234",
-            "year": "2020",
-            "month": ""
-        },
-        "img_path": ".img/2020 - A Mesh Generation Perspective on Robust Mappings_Pasted image 20260323104045.png"
-    },
-    {
-        "filename": "2023 TOG - The Method of Moving Frames for Surface Global Parametrization.md",
-        "properties": {
-            "bibtex": "@article{10.1145/3604282,\nauthor = {Coiffier, Guillaume and Corman, Etienne},\ntitle = {The Method of Moving Frames for Surface Global Parametrization},\nyear = {2023},\nissue_date = {October 2023},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {42},\nnumber = {5},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3604282},\ndoi = {10.1145/3604282},\njournal = {ACM Trans. Graph.},\nmonth = sep,\narticleno = {166},\nnumpages = {18},\nkeywords = {quadmeshing, distortion minimization, singularity placement, seamless parametrization, Global parametrization}\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization",
-                "moving_frames"
-            ],
-            "teaser": "Pasted image 20260201213341.png"
-        },
-        "bibtex_parsed": {
-            "title": "The Method of Moving Frames for Surface Global Parametrization",
-            "author": "Coiffier, Guillaume and Corman, Etienne",
-            "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/3604282",
-            "year": "2023",
-            "month": "September"
-        },
-        "img_path": ".img/2023 TOG - The Method of Moving Frames for Surface Global Parametrization_Pasted image 20260201213341.png"
-    },
-    {
-        "filename": "2020 TOG - Inter-surface maps via constant-curvature metrics.md",
-        "properties": {
-            "bibtex": "@article{10.1145/3386569.3392399,\r\nauthor = {Schmidt, Patrick and Campen, Marcel and Born, Janis and Kobbelt, Leif},\r\ntitle = {Inter-surface maps via constant-curvature metrics},\r\nyear = {2020},\r\nissue_date = {August 2020},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {39},\r\nnumber = {4},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3386569.3392399},\r\ndoi = {10.1145/3386569.3392399},\r\nabstract = {We propose a novel approach to represent maps between two discrete surfaces of the same genus and to minimize intrinsic mapping distortion. Our maps are well-defined at every surface point and are guaranteed to be continuous bijections (surface homeomorphisms). As a key feature of our approach, only the images of vertices need to be represented explicitly, since the images of all other points (on edges or in faces) are properly defined implicitly. This definition is via unique geodesics in metrics of constant Gaussian curvature. Our method is built upon the fact that such metrics exist on surfaces of arbitrary topology, without the need for any cuts or cones (as asserted by the uniformization theorem). Depending on the surfaces' genus, these metrics exhibit one of the three classical geometries: Euclidean, spherical or hyperbolic. Our formulation handles constructions in all three geometries in a unified way. In addition, by considering not only the vertex images but also the discrete metric as degrees of freedom, our formulation enables us to simultaneously optimize the images of these vertices and images of all other points.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = aug,\r\narticleno = {119},\r\nnumpages = {15},\r\nkeywords = {bijection, cross-parametrization, discrete homeomorphism, mesh overlay, surface parametrization}\r\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260323102520.png"
-        },
-        "bibtex_parsed": {
-            "title": "Inter-surface maps via constant-curvature metrics",
-            "author": "Schmidt, Patrick and Campen, Marcel and Born, Janis and Kobbelt, Leif",
-            "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/3386569.3392399",
-            "year": "2020",
-            "month": "August"
-        },
-        "img_path": ".img/2020 TOG - Inter-surface maps via constant-curvature metrics_Pasted image 20260323102520.png"
-    },
-    {
-        "filename": "2019 TOG - Seamless Parametrization with Arbitrary Cones for Arbitrary Genus.md",
-        "properties": {
-            "bibtex": "@article{10.1145/3360511,\nauthor = {Campen, Marcel and Shen, Hanxiao and Zhou, Jiaran and Zorin, Denis},\ntitle = {Seamless Parametrization with Arbitrary Cones for Arbitrary Genus},\nyear = {2019},\nissue_date = {February 2020},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {39},\nnumber = {1},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3360511},\ndoi = {10.1145/3360511},\njournal = {ACM Trans. Graph.},\nmonth = dec,\narticleno = {2},\nnumpages = {19},\nkeywords = {holonomy, cone metric, Conformal}\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization",
-                "seamless"
-            ],
-            "teaser": "Pasted image 20260307111155.png"
-        },
-        "bibtex_parsed": {
-            "title": "Seamless Parametrization with Arbitrary Cones for Arbitrary Genus",
-            "author": "Campen, Marcel and Shen, Hanxiao and Zhou, Jiaran and Zorin, Denis",
-            "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/3360511",
-            "year": "2019",
-            "month": "December"
-        },
-        "img_path": ".img/2019 TOG - Seamless Parametrization with Arbitrary Cones for Arbitrary Genus_Pasted image 20260307111155.png"
+        "img_path": ".img/2025 TOG - Feature-Aligned Parametrization in Penner Coordinates_Pasted image 20260201213714.png"
     },
     {
         "filename": "2020 TOG - Lifting Simplices to Find Injectivity.md",
         "properties": {
             "bibtex": "@article{10.1145/3386569.3392484,\nauthor = {Du, Xingyi and Aigerman, Noam and Zhou, Qingnan and Kovalsky, Shahar Z. and Yan, Yajie and Kaufman, Danny M. and Ju, Tao},\ntitle = {Lifting simplices to find injectivity},\nyear = {2020},\nissue_date = {August 2020},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {39},\nnumber = {4},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3386569.3392484},\ndoi = {10.1145/3386569.3392484},\njournal = {ACM Trans. Graph.},\nmonth = aug,\narticleno = {120},\nnumpages = {17},\nkeywords = {injective embedding, parameterization}\n}",
-            "code": "",
+            "code": "https://github.com/duxingyi-charles/lifting_simplices_to_find_injectivity",
             "data": "",
             "project": "",
             "slide": "",
@@ -763,6 +322,54 @@
             "month": "August"
         },
         "img_path": ".img/2020 TOG - Lifting Simplices to Find Injectivity_Pasted image 20260315212309.png"
+    },
+    {
+        "filename": "2016 TOG - Hyperbolic orbifold tutte embeddings.md",
+        "properties": {
+            "bibtex": "@article{10.1145/2980179.2982412,\r\nauthor = {Aigerman, Noam and Lipman, Yaron},\r\ntitle = {Hyperbolic orbifold tutte embeddings},\r\nyear = {2016},\r\nissue_date = {November 2016},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {35},\r\nnumber = {6},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/2980179.2982412},\r\ndoi = {10.1145/2980179.2982412},\r\nabstract = {Tutte's embedding is one of the most popular approaches for computing parameterizations of surface meshes in computer graphics and geometry processing. Its popularity can be attributed to its simplicity, the guaranteed bijectivity of the embedding, and its relation to continuous harmonic mappings.In this work we extend Tutte's embedding into hyperbolic cone-surfaces called orbifolds. Hyperbolic orbifolds are simple surfaces exhibiting different topologies and cone singularities and therefore provide a flexible and useful family of target domains. The hyperbolic Orbifold Tutte embedding is defined as a critical point of a Dirichlet energy with special boundary constraints and is proved to be bijective, while also satisfying a set of points-constraints. An efficient algorithm for computing these embeddings is developed.We demonstrate a powerful application of the hyperbolic Tutte embedding for computing a consistent set of bijective, seamless maps between all pairs in a collection of shapes, interpolating a set of user-prescribed landmarks, in a fast and robust manner.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = dec,\r\narticleno = {217},\r\nnumpages = {14},\r\nkeywords = {discrete harmonic, hyperbolic, injective parameterization, orbifold, surface mapping, tutte embedding}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260323222106.png"
+        },
+        "bibtex_parsed": {
+            "title": "Hyperbolic orbifold tutte embeddings",
+            "author": "Aigerman, Noam and Lipman, Yaron",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/2980179.2982412",
+            "year": "2016",
+            "month": "December"
+        },
+        "img_path": ".img/2016 TOG - Hyperbolic orbifold tutte embeddings_Pasted image 20260323222106.png"
+    },
+    {
+        "filename": "2023 TOG - Geometric optimisation via spectral shifting.md",
+        "properties": {
+            "bibtex": "@article{10.1145/3585003,\r\nauthor = {Poya, Roman and Ortigosa, Rogelio and Kim, Theodore},\r\ntitle = {Geometric Optimisation Via Spectral Shifting},\r\nyear = {2023},\r\nissue_date = {June 2023},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {42},\r\nnumber = {3},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3585003},\r\ndoi = {10.1145/3585003},\r\nabstract = {We present a geometric optimisation framework that can recover fold-over free maps from non-injective initial states using popular flip-preventing distortion energies. Since flip-preventing energies are infinite for folded configurations, we propose a new regularisation scheme that shifts the singular values of the deformation gradient. This allow us to re-use many existing algorithms, especially locally injective methods for initially folded maps. Our regularisation is suitable for both singular value- and invariant-based formulations, and systematically contributes multiple stabilisers to the Hessian. In contrast to proxy-based techniques, we maintain second-order convergence. Compact expressions for the energy eigensystems can be obtained for our extended stretch invariants, enabling the use of fast projected Newton solvers. Although spectral shifting in general has no theoretical guarantees that the global minimum is an injection, extensive experiments show that our framework is fast and extremely robust in practice, and capable of generating high-quality maps from severely distorted, degenerate and folded initialisations.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = apr,\r\narticleno = {29},\r\nnumpages = {15},\r\nkeywords = {Fold-over free mappings, projected Newton solver, mesh, parametrisation, numerical optimisation}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260323103035.png"
+        },
+        "bibtex_parsed": {
+            "title": "Geometric Optimisation Via Spectral Shifting",
+            "author": "Poya, Roman and Ortigosa, Rogelio and Kim, Theodore",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/3585003",
+            "year": "2023",
+            "month": "April"
+        },
+        "img_path": ".img/2023 TOG - Geometric optimisation via spectral shifting_Pasted image 20260323103035.png"
     },
     {
         "filename": "2016 TOG - Bijective maps from simplicial foliations.md",
@@ -791,9 +398,33 @@
         "img_path": ".img/2016 TOG - Bijective maps from simplicial foliations_Pasted image 20260219141518.png"
     },
     {
-        "filename": "2001 - Constrained texture mapping for polygonal meshes.md",
+        "filename": "2004 TOG - Cross-parameterization and compatible remeshing of 3D models.md",
         "properties": {
-            "bibtex": "@inproceedings{10.1145/383259.383308,\nauthor = {L\\'{e}vy, Bruno},\ntitle = {Constrained texture mapping for polygonal meshes},\nyear = {2001},\nisbn = {158113374X},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/383259.383308},\ndoi = {10.1145/383259.383308},\nabstract = {Recently, time and effort have been devoted to automatic texture mapping. It is possible to study the parameterization function and to describe the texture mapping process in terms of a functional optimization problem. Several methods of this type have been proposed to minimize deformations. However, these existing methods suffer from several limitations. For instance, it is difficult to put details of the texture in correspondence with features of the model, since most of the existing methods can only constrain iso-parametric curves.We introduce in this paper a new optimization-based method for parameterizing polygonal meshes with minimum deformations, while enabling the user to interactively define and edit a set of constraints. Each user-defined constraint consists of a relation linking a 3D point picked on the surface and a 2D point of the texture. Moreover, the non-deformation criterion introduced here can act as an extrapolator, thus making it unnecessary to constrain the border of the surface, in contrast with classic methods. To minimize the criterion, a conjugate gradient algorithm is combined with a compressed representation of sparse matrices, making it possible to achieve a fast convergence.},\nbooktitle = {Proceedings of the 28th Annual Conference on Computer Graphics and Interactive Techniques},\npages = {417–424},\nnumpages = {8},\nkeywords = {texture mapping, polygonal modeling, paint systems},\nseries = {SIGGRAPH '01}\n}",
+            "bibtex": "@article{10.1145/1015706.1015811,\r\nauthor = {Kraevoy, Vladislav and Sheffer, Alla},\r\ntitle = {Cross-parameterization and compatible remeshing of 3D models},\r\nyear = {2004},\r\nissue_date = {August 2004},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {23},\r\nnumber = {3},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/1015706.1015811},\r\ndoi = {10.1145/1015706.1015811},\r\nabstract = {Many geometry processing applications, such as morphing, shape blending, transfer of texture or material properties, and fitting template meshes to scan data, require a bijective mapping between two or more models. This mapping, or cross-parameterization, typically needs to preserve the shape and features of the parameterized models, mapping legs to legs, ears to ears, and so on. Most of the applications also require the models to be represented by compatible meshes, i.e. meshes with identical connectivity, based on the cross-parameterization. In this paper we introduce novel methods for shape preserving cross-parameterization and compatible remeshing. Our cross-parameterization method computes a low-distortion bijective mapping between models that satisfies user prescribed constraints. Using this mapping, the remeshing algorithm preserves the user-defined feature vertex correspondence and the shape correlation between the models. The remeshing algorithm generates output meshes with significantly fewer elements compared to previous techniques, while accurately approximating the input geometry. As demonstrated by the examples, the compatible meshes we construct are ideally suitable for morphing and other geometry processing applications.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = aug,\r\npages = {861–869},\r\nnumpages = {9},\r\nkeywords = {Modeling -- Mesh generation, Modeling -- Polygonal modeling, Modeling -- Shape blending/Morphing, Modeling -- Surface parameterization}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260323222341.png"
+        },
+        "bibtex_parsed": {
+            "title": "Cross-parameterization and compatible remeshing of 3D models",
+            "author": "Kraevoy, Vladislav and Sheffer, Alla",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/1015706.1015811",
+            "year": "2004",
+            "month": "August"
+        },
+        "img_path": ".img/2004 TOG - Cross-parameterization and compatible remeshing of 3D models_Pasted image 20260323222341.png"
+    },
+    {
+        "filename": "1998 - Non-distorted texture mapping for sheared triangulated meshes.md",
+        "properties": {
+            "bibtex": "@inproceedings{levy1998non,\n  title={Non-distorted texture mapping for sheared triangulated meshes},\n  author={L{\\'e}vy, Bruno and Mallet, Jean-Laurent},\n  booktitle={Proceedings of the 25th annual conference on Computer graphics and interactive techniques},\n  pages={343--352},\n  year={1998}\n}",
             "code": "https://github.com/BrunoLevy/geogram",
             "data": "",
             "project": "",
@@ -802,22 +433,22 @@
             "tags": [
                 "parameterization"
             ],
-            "teaser": "Pasted image 20260317135354.png"
+            "teaser": "Pasted image 20260317135514.png"
         },
         "bibtex_parsed": {
-            "title": "Constrained texture mapping for polygonal meshes",
-            "author": "L\\'evy, Bruno",
-            "venue": "Proceedings of the 28th Annual Conference on Computer Graphics and Interactive Techniques",
-            "doi_url": "https://doi.org/10.1145/383259.383308",
-            "year": "2001",
+            "title": "Non-distorted texture mapping for sheared triangulated meshes",
+            "author": "L\\'evy, Bruno and Mallet, Jean-Laurent",
+            "venue": "Proceedings of the 25th annual conference on Computer graphics and interactive techniques",
+            "doi_url": "",
+            "year": "1998",
             "month": ""
         },
-        "img_path": ".img/2001 - Constrained texture mapping for polygonal meshes_Pasted image 20260317135354.png"
+        "img_path": ".img/1998 - Non-distorted texture mapping for sheared triangulated meshes_Pasted image 20260317135514.png"
     },
     {
-        "filename": "2023 - Tutte Embeddings of Tetrahedral Meshes.md",
+        "filename": "2019 CGF - Practical Foldover-Free Volumetric Mapping Construction.md",
         "properties": {
-            "bibtex": "@article{alexa2025tutte,\r\n  title={Tutte embeddings of tetrahedral meshes},\r\n  author={Alexa, Marc},\r\n  journal={Discrete \\& Computational Geometry},\r\n  volume={73},\r\n  number={1},\r\n  pages={197--207},\r\n  year={2023},\r\n  publisher={Springer}\r\n}",
+            "bibtex": "@article{https://doi.org/10.1111/cgf.13837,\r\nauthor = {Su, Jian-Ping and Fu, Xiao-Ming and Liu, Ligang},\r\ntitle = {Practical Foldover-Free Volumetric Mapping Construction},\r\njournal = {Computer Graphics Forum},\r\nvolume = {38},\r\nnumber = {7},\r\npages = {287-297},\r\nkeywords = {CCS Concepts, • Computing methodologies → Shape modeling},\r\ndoi = {https://doi.org/10.1111/cgf.13837},\r\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13837},\r\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13837},\r\nabstract = {Abstract In this paper, we present a practically robust method for computing foldover-free volumetric mappings with hard linear constraints. Central to this approach is a projection algorithm that monotonically and efficiently decreases the distance from the mapping to the bounded conformal distortion mapping space. After projection, the conformal distortion of the updated mapping tends to be below the given bound, thereby significantly reducing foldovers. Since it is non-trivial to define an optimal bound, we introduce a practical conformal distortion bound generation scheme to facilitate subsequent projections. By iteratively generating conformal distortion bounds and trying to project mappings into bounded conformal distortion spaces monotonically, our algorithm achieves high-quality foldover-free volumetric mappings with strong practical robustness and high efficiency. Compared with existing methods, our method computes mesh-based and meshless volumetric mappings with no prescribed conformal distortion bounds. We demonstrate the efficacy and efficiency of our method through a variety of geometric processing tasks.},\r\nyear = {2019}\r\n}",
             "code": "",
             "data": "",
             "project": "",
@@ -827,22 +458,22 @@
                 "parameterization",
                 "volumetric_mapping"
             ],
-            "teaser": "Pasted image 20260323103825.png"
+            "teaser": "Pasted image 20260323103600.png"
         },
         "bibtex_parsed": {
-            "title": "Tutte embeddings of tetrahedral meshes",
-            "author": "Alexa, Marc",
-            "venue": "Discrete \\& Computational Geometry",
-            "doi_url": "",
-            "year": "2023",
+            "title": "Practical Foldover-Free Volumetric Mapping Construction",
+            "author": "Su, Jian-Ping and Fu, Xiao-Ming and Liu, Ligang",
+            "venue": "Computer Graphics Forum",
+            "doi_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13837",
+            "year": "2019",
             "month": ""
         },
-        "img_path": ".img/2023 - Tutte Embeddings of Tetrahedral Meshes_Pasted image 20260323103825.png"
+        "img_path": ".img/2019 CGF - Practical Foldover-Free Volumetric Mapping Construction_Pasted image 20260323103600.png"
     },
     {
-        "filename": "2023 TOG - Geometric optimisation via spectral shifting.md",
+        "filename": "2000 - MIPS - An Efficient Global Parametrization Method.md",
         "properties": {
-            "bibtex": "@article{10.1145/3585003,\r\nauthor = {Poya, Roman and Ortigosa, Rogelio and Kim, Theodore},\r\ntitle = {Geometric Optimisation Via Spectral Shifting},\r\nyear = {2023},\r\nissue_date = {June 2023},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {42},\r\nnumber = {3},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3585003},\r\ndoi = {10.1145/3585003},\r\nabstract = {We present a geometric optimisation framework that can recover fold-over free maps from non-injective initial states using popular flip-preventing distortion energies. Since flip-preventing energies are infinite for folded configurations, we propose a new regularisation scheme that shifts the singular values of the deformation gradient. This allow us to re-use many existing algorithms, especially locally injective methods for initially folded maps. Our regularisation is suitable for both singular value- and invariant-based formulations, and systematically contributes multiple stabilisers to the Hessian. In contrast to proxy-based techniques, we maintain second-order convergence. Compact expressions for the energy eigensystems can be obtained for our extended stretch invariants, enabling the use of fast projected Newton solvers. Although spectral shifting in general has no theoretical guarantees that the global minimum is an injection, extensive experiments show that our framework is fast and extremely robust in practice, and capable of generating high-quality maps from severely distorted, degenerate and folded initialisations.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = apr,\r\narticleno = {29},\r\nnumpages = {15},\r\nkeywords = {Fold-over free mappings, projected Newton solver, mesh, parametrisation, numerical optimisation}\r\n}",
+            "bibtex": "@article{hormann2000mips,\r\n  title={MIPS: An efficient global parametrization method},\r\n  author={Hormann, Kai and Greiner, G{\\\"u}nther},\r\n  year={2000}\r\n}",
             "code": "",
             "data": "",
             "project": "",
@@ -851,17 +482,286 @@
             "tags": [
                 "parameterization"
             ],
-            "teaser": "Pasted image 20260323103035.png"
+            "teaser": "Pasted image 20260323222704.png"
         },
         "bibtex_parsed": {
-            "title": "Geometric Optimisation Via Spectral Shifting",
-            "author": "Poya, Roman and Ortigosa, Rogelio and Kim, Theodore",
-            "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/3585003",
-            "year": "2023",
-            "month": "April"
+            "title": "MIPS: An efficient global parametrization method",
+            "author": "Hormann, Kai and Greiner, G\\\"unther",
+            "venue": "",
+            "doi_url": "",
+            "year": "2000",
+            "month": ""
         },
-        "img_path": ".img/2023 TOG - Geometric optimisation via spectral shifting_Pasted image 20260323103035.png"
+        "img_path": ".img/2000 - MIPS - An Efficient Global Parametrization Method_Pasted image 20260323222704.png"
+    },
+    {
+        "filename": "2023 TOG - The Method of Moving Frames for Surface Global Parametrization.md",
+        "properties": {
+            "bibtex": "@article{10.1145/3604282,\nauthor = {Coiffier, Guillaume and Corman, Etienne},\ntitle = {The Method of Moving Frames for Surface Global Parametrization},\nyear = {2023},\nissue_date = {October 2023},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {42},\nnumber = {5},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3604282},\ndoi = {10.1145/3604282},\njournal = {ACM Trans. Graph.},\nmonth = sep,\narticleno = {166},\nnumpages = {18},\nkeywords = {quadmeshing, distortion minimization, singularity placement, seamless parametrization, Global parametrization}\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization",
+                "moving_frames"
+            ],
+            "teaser": "Pasted image 20260201213341.png"
+        },
+        "bibtex_parsed": {
+            "title": "The Method of Moving Frames for Surface Global Parametrization",
+            "author": "Coiffier, Guillaume and Corman, Etienne",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/3604282",
+            "year": "2023",
+            "month": "September"
+        },
+        "img_path": ".img/2023 TOG - The Method of Moving Frames for Surface Global Parametrization_Pasted image 20260201213341.png"
+    },
+    {
+        "filename": "2020 CGF - Combinatorial construction of seamless parameter domains.md",
+        "properties": {
+            "bibtex": "@article{https://doi.org/10.1111/cgf.13922,\r\nauthor = {Zhou, J. and Tu, C. and Zorin, D. and Campen, M.},\r\ntitle = {Combinatorial Construction of Seamless Parameter Domains},\r\njournal = {Computer Graphics Forum},\r\nvolume = {39},\r\nnumber = {2},\r\npages = {179-190},\r\nkeywords = {CCS Concepts, • Computing methodologies → Computer graphics; Mesh models; Mesh geometry models; Shape modeling},\r\ndoi = {https://doi.org/10.1111/cgf.13922},\r\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13922},\r\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13922},\r\nabstract = {Abstract The problem of seamless parametrization of surfaces is of interest in the context of structured quadrilateral mesh generation and spline-based surface approximation. It has been tackled by a variety of approaches, commonly relying on continuous numerical optimization to ultimately obtain suitable parameter domains. We present a general combinatorial seamless parameter domain construction, free from the potential numerical issues inherent to continuous optimization techniques in practice. The domains are constructed as abstract polygonal complexes which can be embedded in a discrete planar grid space, as unions of unit squares. We ensure that the domain structure matches any prescribed parametrization singularities (cones) and satisfies seamlessness conditions. Surfaces of arbitrary genus are supported. Once a domain suitable for a given surface is constructed, a seamless and locally injective parametrization over this domain can be obtained using existing planar disk mapping techniques, making recourse to Tutte's classical embedding theorem.},\r\nyear = {2020}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization",
+                "seamless"
+            ],
+            "teaser": "Pasted image 20260323102330.png"
+        },
+        "bibtex_parsed": {
+            "title": "Combinatorial Construction of Seamless Parameter Domains",
+            "author": "Zhou, J. and Tu, C. and Zorin, D. and Campen, M.",
+            "venue": "Computer Graphics Forum",
+            "doi_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13922",
+            "year": "2020",
+            "month": ""
+        },
+        "img_path": ".img/2020 CGF - Combinatorial construction of seamless parameter domains_Pasted image 20260323102330.png"
+    },
+    {
+        "filename": "2019 TOG - Distortion-minimizing injective maps between surfaces.md",
+        "properties": {
+            "bibtex": "@article{10.1145/3355089.3356519,\r\nauthor = {Schmidt, Patrick and Born, Janis and Campen, Marcel and Kobbelt, Leif},\r\ntitle = {Distortion-minimizing injective maps between surfaces},\r\nyear = {2019},\r\nissue_date = {December 2019},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {38},\r\nnumber = {6},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3355089.3356519},\r\ndoi = {10.1145/3355089.3356519},\r\nabstract = {The problem of discrete surface parametrization, i.e. mapping a mesh to a planar domain, has been investigated extensively. We address the more general problem of mapping between surfaces. In particular, we provide a formulation that yields a map between two disk-topology meshes, which is continuous and injective by construction and which locally minimizes intrinsic distortion. A common approach is to express such a map as the composition of two maps via a simple intermediate domain such as the plane, and to independently optimize the individual maps. However, even if both individual maps are of minimal distortion, there is potentially high distortion in the composed map. In contrast to many previous works, we minimize distortion in an end-to-end manner, directly optimizing the quality of the composed map. This setting poses additional challenges due to the discrete nature of both the source and the target domain. We propose a formulation that, despite the combinatorial aspects of the problem, allows for a purely continuous optimization. Further, our approach addresses the non-smooth nature of discrete distortion measures in this context which hinders straightforward application of off-the-shelf optimization techniques. We demonstrate that, despite the challenges inherent to the more involved setting, discrete surface-to-surface maps can be optimized effectively.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = nov,\r\narticleno = {156},\r\nnumpages = {15},\r\nkeywords = {cross-parametrization, embedding, inter-surface mapping, intersection mesh, surface parametrization}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260323102617.png"
+        },
+        "bibtex_parsed": {
+            "title": "Distortion-minimizing injective maps between surfaces",
+            "author": "Schmidt, Patrick and Born, Janis and Campen, Marcel and Kobbelt, Leif",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/3355089.3356519",
+            "year": "2019",
+            "month": "November"
+        },
+        "img_path": ".img/2019 TOG - Distortion-minimizing injective maps between surfaces_Pasted image 20260323102617.png"
+    },
+    {
+        "filename": "2020 TOG - Inter-surface maps via constant-curvature metrics.md",
+        "properties": {
+            "bibtex": "@article{10.1145/3386569.3392399,\r\nauthor = {Schmidt, Patrick and Campen, Marcel and Born, Janis and Kobbelt, Leif},\r\ntitle = {Inter-surface maps via constant-curvature metrics},\r\nyear = {2020},\r\nissue_date = {August 2020},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {39},\r\nnumber = {4},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3386569.3392399},\r\ndoi = {10.1145/3386569.3392399},\r\nabstract = {We propose a novel approach to represent maps between two discrete surfaces of the same genus and to minimize intrinsic mapping distortion. Our maps are well-defined at every surface point and are guaranteed to be continuous bijections (surface homeomorphisms). As a key feature of our approach, only the images of vertices need to be represented explicitly, since the images of all other points (on edges or in faces) are properly defined implicitly. This definition is via unique geodesics in metrics of constant Gaussian curvature. Our method is built upon the fact that such metrics exist on surfaces of arbitrary topology, without the need for any cuts or cones (as asserted by the uniformization theorem). Depending on the surfaces' genus, these metrics exhibit one of the three classical geometries: Euclidean, spherical or hyperbolic. Our formulation handles constructions in all three geometries in a unified way. In addition, by considering not only the vertex images but also the discrete metric as degrees of freedom, our formulation enables us to simultaneously optimize the images of these vertices and images of all other points.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = aug,\r\narticleno = {119},\r\nnumpages = {15},\r\nkeywords = {bijection, cross-parametrization, discrete homeomorphism, mesh overlay, surface parametrization}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260323102520.png"
+        },
+        "bibtex_parsed": {
+            "title": "Inter-surface maps via constant-curvature metrics",
+            "author": "Schmidt, Patrick and Campen, Marcel and Born, Janis and Kobbelt, Leif",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/3386569.3392399",
+            "year": "2020",
+            "month": "August"
+        },
+        "img_path": ".img/2020 TOG - Inter-surface maps via constant-curvature metrics_Pasted image 20260323102520.png"
+    },
+    {
+        "filename": "2019 TOG - Progressive embedding.md",
+        "properties": {
+            "bibtex": "@article{10.1145/3306346.3323012,\r\nauthor = {Shen, Hanxiao and Jiang, Zhongshi and Zorin, Denis and Panozzo, Daniele},\r\ntitle = {Progressive embedding},\r\nyear = {2019},\r\nissue_date = {August 2019},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {38},\r\nnumber = {4},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3306346.3323012},\r\ndoi = {10.1145/3306346.3323012},\r\nabstract = {Tutte embedding is one of the most common building blocks in geometry processing algorithms due to its simplicity and provable guarantees. Although provably correct in infinite precision arithmetic, it fails in challenging cases when implemented using floating point arithmetic, largely due to the induced exponential area changes.We propose Progressive Embedding, with similar theoretical guarantees to Tutte embedding, but more resilient to the rounding error of floating point arithmetic. Inspired by progressive meshes, we collapse edges on an invalid embedding to a valid, simplified mesh, then insert points back while maintaining validity. We demonstrate the robustness of our method by computing embeddings for a large collection of disk topology meshes.By combining our robust embedding with a variant of the matchmaker algorithm, we propose a general algorithm for the problem of mapping multiply connected domains with arbitrary hard constraints to the plane, with applications in texture mapping and remeshing.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\narticleno = {32},\r\nnumpages = {13},\r\nkeywords = {embedding, locally injective Maps, mesh parametrization, robust geometry processing}\r\n}",
+            "code": "https://github.com/hankstag/progressive_embedding",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization",
+                "progressive"
+            ],
+            "teaser": "Pasted image 20260320104106.png"
+        },
+        "bibtex_parsed": {
+            "title": "Progressive embedding",
+            "author": "Shen, Hanxiao and Jiang, Zhongshi and Zorin, Denis and Panozzo, Daniele",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/3306346.3323012",
+            "year": "2019",
+            "month": "July"
+        },
+        "img_path": ".img/2019 TOG - Progressive embedding_Pasted image 20260320104106.png"
+    },
+    {
+        "filename": "1997 - 3D geometric metamorphosis based on harmonic map.md",
+        "properties": {
+            "bibtex": "@INPROCEEDINGS{626179,\r\n  author={Kanai, T. and Suzuki, H. and Kimura, F.},\r\n  booktitle={Proceedings The Fifth Pacific Conference on Computer Graphics and Applications}, \r\n  title={3D geometric metamorphosis based on harmonic map}, \r\n  year={1997},\r\n  volume={},\r\n  number={},\r\n  pages={97-104},\r\n  keywords={Topology;Interpolation;Shape control;Machinery;Animation;Computer graphics;Application software;Rendering (computer graphics);Isosurfaces;Data mining},\r\n  doi={10.1109/PCCGA.1997.626179}}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260323102819.png"
+        },
+        "bibtex_parsed": {
+            "title": "3D geometric metamorphosis based on harmonic map",
+            "author": "Kanai, T. and Suzuki, H. and Kimura, F.",
+            "venue": "Proceedings The Fifth Pacific Conference on Computer Graphics and Applications",
+            "doi_url": "https://doi.org/10.1109/PCCGA.1997.626179",
+            "year": "1997",
+            "month": ""
+        },
+        "img_path": ".img/1997 - 3D geometric metamorphosis based on harmonic map_Pasted image 20260323102819.png"
+    },
+    {
+        "filename": "2008 CGF - A Local-Global Approach to Mesh Parameterization.md",
+        "properties": {
+            "bibtex": "@article{https://doi.org/10.1111/j.1467-8659.2008.01290.x,\nauthor = {Liu, Ligang and Zhang, Lei and Xu, Yin and Gotsman, Craig and Gortler, Steven J.},\ntitle = {A Local/Global Approach to Mesh Parameterization},\njournal = {Computer Graphics Forum},\nvolume = {27},\nnumber = {5},\npages = {1495-1504},\nkeywords = {I.3.5 Computer Graphics: Computational Geometry and Object Modeling I.3.8 Computer Graphics: Application},\ndoi = {https://doi.org/10.1111/j.1467-8659.2008.01290.x},\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2008.01290.x},\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2008.01290.x},\nabstract = {Abstract We present a novel approach to parameterize a mesh with disk topology to the plane in a shape-preserving manner. Our key contribution is a local/global algorithm, which combines a local mapping of each 3D triangle to the plane, using transformations taken from a restricted set, with a global “stitch” operation of all triangles, involving a sparse linear system. The local transformations can be taken from a variety of families, e.g. similarities or rotations, generating different types of parameterizations. In the first case, the parameterization tries to force each 2D triangle to be an as-similar-as-possible version of its 3D counterpart. This is shown to yield results identical to those of the LSCM algorithm. In the second case, the parameterization tries to force each 2D triangle to be an as-rigid-as-possible version of its 3D counterpart. This approach preserves shape as much as possible. It is simple, effective, and fast, due to pre-factoring of the linear system involved in the global phase. Experimental results show that our approach provides almost isometric parameterizations and obtains more shape-preserving results than other state-of-the-art approaches. We present also a more general “hybrid” parameterization model which provides a continuous spectrum of possibilities, controlled by a single parameter. The two cases described above lie at the two ends of the spectrum. We generalize our local/global algorithm to compute these parameterizations. The local phase may also be accelerated by parallelizing the independent computations per triangle.},\nyear = {2008}\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260317143051.png"
+        },
+        "bibtex_parsed": {
+            "title": "A Local/Global Approach to Mesh Parameterization",
+            "author": "Liu, Ligang and Zhang, Lei and Xu, Yin and Gotsman, Craig and Gortler, Steven J.",
+            "venue": "Computer Graphics Forum",
+            "doi_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2008.01290.x",
+            "year": "2008",
+            "month": ""
+        },
+        "img_path": ".img/2008 CGF - A Local-Global Approach to Mesh Parameterization_Pasted image 20260317143051.png"
+    },
+    {
+        "filename": "2021 TOG - Foldover-free maps in 50 lines of code.md",
+        "properties": {
+            "bibtex": "@article{10.1145/3450626.3459847,\nauthor = {Garanzha, Vladimir and Kaporin, Igor and Kudryavtseva, Liudmila and Protais, Fran\\c{c}ois and Ray, Nicolas and Sokolov, Dmitry},\ntitle = {Foldover-free maps in 50 lines of code},\nyear = {2021},\nissue_date = {August 2021},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {40},\nnumber = {4},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3450626.3459847},\ndoi = {10.1145/3450626.3459847},\njournal = {ACM Trans. Graph.},\nmonth = jul,\narticleno = {102},\nnumpages = {16},\nkeywords = {parameterization, mesh untangling, injective mapping}\n}",
+            "code": "https://github.com/ssloy/invertible-maps",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization",
+                "volumetric_mapping"
+            ],
+            "teaser": "Pasted image 20260223214820.png"
+        },
+        "bibtex_parsed": {
+            "title": "Foldover-free maps in 50 lines of code",
+            "author": "Garanzha, Vladimir and Kaporin, Igor and Kudryavtseva, Liudmila and Protais, Fran\\ccois and Ray, Nicolas and Sokolov, Dmitry",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/3450626.3459847",
+            "year": "2021",
+            "month": "July"
+        },
+        "img_path": ".img/2021 TOG - Foldover-free maps in 50 lines of code_Pasted image 20260223214820.png"
+    },
+    {
+        "filename": "2017 TOG - Simplicial complex augmentation framework for bijective maps.md",
+        "properties": {
+            "bibtex": "@article{10.1145/3130800.3130895,\nauthor = {Jiang, Zhongshi and Schaefer, Scott and Panozzo, Daniele},\ntitle = {Simplicial complex augmentation framework for bijective maps},\nyear = {2017},\nissue_date = {December 2017},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {36},\nnumber = {6},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3130800.3130895},\ndoi = {10.1145/3130800.3130895},\njournal = {ACM Trans. Graph.},\nmonth = nov,\narticleno = {186},\nnumpages = {9}\n}",
+            "code": "https://github.com/jiangzhongshi/Scaffold-Map",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization",
+                "bijective"
+            ],
+            "teaser": "Pasted image 20260315212520.png"
+        },
+        "bibtex_parsed": {
+            "title": "Simplicial complex augmentation framework for bijective maps",
+            "author": "Jiang, Zhongshi and Schaefer, Scott and Panozzo, Daniele",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/3130800.3130895",
+            "year": "2017",
+            "month": "November"
+        },
+        "img_path": ".img/2017 TOG - Simplicial complex augmentation framework for bijective maps_Pasted image 20260315212520.png"
+    },
+    {
+        "filename": "2002 TOG - Least squares conformal maps for automatic texture atlas generation.md",
+        "properties": {
+            "bibtex": "@article{10.1145/566654.566590,\nauthor = {L\\'{e}vy, Bruno and Petitjean, Sylvain and Ray, Nicolas and Maillot, J\\'{e}rome},\ntitle = {Least squares conformal maps for automatic texture atlas generation},\nyear = {2002},\nissue_date = {July 2002},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {21},\nnumber = {3},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/566654.566590},\ndoi = {10.1145/566654.566590},\nabstract = {A Texture Atlas is an efficient color representation for 3D Paint Systems. The model to be textured is decomposed into charts homeomorphic to discs, each chart is parameterized, and the unfolded charts are packed in texture space. Existing texture atlas methods for triangulated surfaces suffer from several limitations, requiring them to generate a large number of small charts with simple borders. The discontinuities between the charts cause artifacts, and make it difficult to paint large areas with regular patterns.In this paper, our main contribution is a new quasi-conformal parameterization method, based on a least-squares approximation of the Cauchy-Riemann equations. The so-defined objective function minimizes angle deformations, and we prove the following properties: the minimum is unique, independent of a similarity in texture space, independent of the resolution of the mesh and cannot generate triangle flips. The function is numerically well behaved and can therefore be very efficiently minimized. Our approach is robust, and can parameterize large charts with complex borders.We also introduce segmentation methods to decompose the model into charts with natural shapes, and a new packing algorithm to gather them in texture space. We demonstrate our approach applied to paint both scanned and modeled data sets.},\njournal = {ACM Trans. Graph.},\nmonth = jul,\npages = {362–371},\nnumpages = {10},\nkeywords = {texture mapping, polygonal modeling, paint systems}\n}\n\n@inbook{10.1145/3596711.3596734,\nauthor = {Levy, Bruno and Petitjean, Sylvain and Ray, Nicolas and Maillot, J\\'{e}rome},\ntitle = {Least squares conformal maps for automatic texture atlas generation},\nyear = {2023},\nisbn = {9798400708978},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nedition = {1},\nurl = {https://doi.org/10.1145/3596711.3596734},\nabstract = {A Texture Atlas is an efficient color representation for 3D Paint Systems. The model to be textured is decomposed into charts homeomorphic to discs, each chart is parameterized, and the unfolded charts are packed in texture space. Existing texture atlas methods for triangulated surfaces suffer from several limitations, requiring them to generate a large number of small charts with simple borders. The discontinuities between the charts cause artifacts, and make it difficult to paint large areas with regular patterns.In this paper, our main contribution is a new quasi-conformal parameterization method, based on a least-squares approximation of the Cauchy-Riemann equations. The so-defined objective function minimizes angle deformations, and we prove the following properties: the minimum is unique, independent of a similarity in texture space, independent of the resolution of the mesh and cannot generate triangle flips. The function is numerically well behaved and can therefore be very efficiently minimized. Our},\nbooktitle = {Seminal Graphics Papers: Pushing the Boundaries, Volume 2},\narticleno = {22},\nnumpages = {10}\n}",
+            "code": "https://github.com/BrunoLevy/geogram",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260317134401.png"
+        },
+        "bibtex_parsed": {
+            "title": "Least squares conformal maps for automatic texture atlas generation",
+            "author": "L\\'evy, Bruno and Petitjean, Sylvain and Ray, Nicolas and Maillot, J\\'erome",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/566654.566590",
+            "year": "2002",
+            "month": "July"
+        },
+        "img_path": ".img/2002 TOG - Least squares conformal maps for automatic texture atlas generation_Pasted image 20260317134401.png"
+    },
+    {
+        "filename": "2017 - A novel projection of open geometry into rectangular domain for 3D shape parameterization.md",
+        "properties": {
+            "bibtex": "@article{10.3233/ICA-170553,\nauthor = {undefinedurkovi\\'{c}, Milan and Marini\\'{c}-Kragi\\'{c}, Ivo and Vu\\v{c}ina, Damir},\ntitle = {A novel projection of open geometry into rectangular domain for 3D shape parameterization},\nyear = {2017},\nissue_date = {2017},\npublisher = {IOS Press},\naddress = {NLD},\nvolume = {25},\nnumber = {1},\nissn = {1069-2509},\nurl = {https://doi.org/10.3233/ICA-170553},\ndoi = {10.3233/ICA-170553},\nabstract = {Multi-patch shape models of engineering objects, while adequate for representation purposes, may introduce problems related to cross-partition continuity and changing composition of individual partitions in shape optimization. Single-patch integral parameterizations may consequently be the preferred option in cases where the shape can change significantly.In absence of any topological preparation, fitting of parametric surfaces to point clouds may be satisfactory for simple shapes. However, complex objects involving concave portions and irregular shapes require additional numerical procedures to obtain adequate structured geometry matrices for fitting which need to preserve the original topology. The overall goal of this paper is to develop a procedure that efficiently handles difficulties related to single-partition parametric surface models of complex-shaped engineering objects. This aspiration involves obtaining a structured geometry matrix even for irregular and concave shapes and developing a dedicated method of projection into a rectangular domain. The performance of the resulting procedure is verified using real engineering objects of complicated 3D shape. Moreover, cases of numerically generated surfaces representative for changing shape compositions with emerging and/or dissolving edges are also included.},\njournal = {Integr. Comput.-Aided Eng.},\nmonth = jan,\npages = {1–14},\nnumpages = {14},\nkeywords = {Projection, rectangular domain, multi-patch NURBS parameterizations, non-linear fitting}\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260317133650.png"
+        },
+        "bibtex_parsed": {
+            "title": "A novel projection of open geometry into rectangular domain for 3D shape parameterization",
+            "author": "undefinedurkovi\\'c, Milan and Marini\\'c-Kragi\\'c, Ivo and Vu\\vcina, Damir",
+            "venue": "Integr. Comput.-Aided Eng.",
+            "doi_url": "https://doi.org/10.3233/ICA-170553",
+            "year": "2017",
+            "month": "January"
+        },
+        "img_path": ".img/2017 - A novel projection of open geometry into rectangular domain for 3D shape parameterization_Pasted image 20260317133650.png"
     },
     {
         "filename": "2013 TOG - Injective and bounded distortion mappings in 3D.md",
@@ -914,131 +814,60 @@
         "img_path": ".img/2025 TOG - Rectangular Surface Parameterization_Pasted image 20250523003235.png"
     },
     {
-        "filename": "2016 TOG - Hyperbolic orbifold tutte embeddings.md",
+        "filename": "2023 TOG - Metric Optimization in Penner Coordinates.md",
         "properties": {
-            "bibtex": "@article{10.1145/2980179.2982412,\r\nauthor = {Aigerman, Noam and Lipman, Yaron},\r\ntitle = {Hyperbolic orbifold tutte embeddings},\r\nyear = {2016},\r\nissue_date = {November 2016},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {35},\r\nnumber = {6},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/2980179.2982412},\r\ndoi = {10.1145/2980179.2982412},\r\nabstract = {Tutte's embedding is one of the most popular approaches for computing parameterizations of surface meshes in computer graphics and geometry processing. Its popularity can be attributed to its simplicity, the guaranteed bijectivity of the embedding, and its relation to continuous harmonic mappings.In this work we extend Tutte's embedding into hyperbolic cone-surfaces called orbifolds. Hyperbolic orbifolds are simple surfaces exhibiting different topologies and cone singularities and therefore provide a flexible and useful family of target domains. The hyperbolic Orbifold Tutte embedding is defined as a critical point of a Dirichlet energy with special boundary constraints and is proved to be bijective, while also satisfying a set of points-constraints. An efficient algorithm for computing these embeddings is developed.We demonstrate a powerful application of the hyperbolic Tutte embedding for computing a consistent set of bijective, seamless maps between all pairs in a collection of shapes, interpolating a set of user-prescribed landmarks, in a fast and robust manner.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = dec,\r\narticleno = {217},\r\nnumpages = {14},\r\nkeywords = {discrete harmonic, hyperbolic, injective parameterization, orbifold, surface mapping, tutte embedding}\r\n}",
+            "bibtex": "@article{10.1145/3618394,\nauthor = {Capouellez, Ryan and Zorin, Denis},\ntitle = {Metric Optimization in Penner Coordinates},\nyear = {2023},\nissue_date = {December 2023},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {42},\nnumber = {6},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3618394},\ndoi = {10.1145/3618394},\njournal = {ACM Trans. Graph.},\nmonth = dec,\narticleno = {234},\nnumpages = {19},\nkeywords = {cone metrics, conformal mapping, discrete metrics, intrinsic triangulation, parametrization, penner coordinates}\n}",
             "code": "",
             "data": "",
             "project": "",
             "slide": "",
             "supplemental": "",
             "tags": [
-                "parameterization"
+                "parameterization",
+                "penner"
             ],
-            "teaser": "Pasted image 20260323222106.png"
+            "teaser": "Pasted image 20260201213846.png"
         },
         "bibtex_parsed": {
-            "title": "Hyperbolic orbifold tutte embeddings",
-            "author": "Aigerman, Noam and Lipman, Yaron",
+            "title": "Metric Optimization in Penner Coordinates",
+            "author": "Capouellez, Ryan and Zorin, Denis",
             "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/2980179.2982412",
-            "year": "2016",
+            "doi_url": "https://doi.org/10.1145/3618394",
+            "year": "2023",
             "month": "December"
         },
-        "img_path": ".img/2016 TOG - Hyperbolic orbifold tutte embeddings_Pasted image 20260323222106.png"
+        "img_path": ".img/2023 TOG - Metric Optimization in Penner Coordinates_Pasted image 20260201213846.png"
     },
     {
-        "filename": "2017 - A novel projection of open geometry into rectangular domain for 3D shape parameterization.md",
+        "filename": "2011 CGF - CubeCover – Parameterization of 3D Volumes.md",
         "properties": {
-            "bibtex": "@article{10.3233/ICA-170553,\nauthor = {undefinedurkovi\\'{c}, Milan and Marini\\'{c}-Kragi\\'{c}, Ivo and Vu\\v{c}ina, Damir},\ntitle = {A novel projection of open geometry into rectangular domain for 3D shape parameterization},\nyear = {2017},\nissue_date = {2017},\npublisher = {IOS Press},\naddress = {NLD},\nvolume = {25},\nnumber = {1},\nissn = {1069-2509},\nurl = {https://doi.org/10.3233/ICA-170553},\ndoi = {10.3233/ICA-170553},\nabstract = {Multi-patch shape models of engineering objects, while adequate for representation purposes, may introduce problems related to cross-partition continuity and changing composition of individual partitions in shape optimization. Single-patch integral parameterizations may consequently be the preferred option in cases where the shape can change significantly.In absence of any topological preparation, fitting of parametric surfaces to point clouds may be satisfactory for simple shapes. However, complex objects involving concave portions and irregular shapes require additional numerical procedures to obtain adequate structured geometry matrices for fitting which need to preserve the original topology. The overall goal of this paper is to develop a procedure that efficiently handles difficulties related to single-partition parametric surface models of complex-shaped engineering objects. This aspiration involves obtaining a structured geometry matrix even for irregular and concave shapes and developing a dedicated method of projection into a rectangular domain. The performance of the resulting procedure is verified using real engineering objects of complicated 3D shape. Moreover, cases of numerically generated surfaces representative for changing shape compositions with emerging and/or dissolving edges are also included.},\njournal = {Integr. Comput.-Aided Eng.},\nmonth = jan,\npages = {1–14},\nnumpages = {14},\nkeywords = {Projection, rectangular domain, multi-patch NURBS parameterizations, non-linear fitting}\n}",
+            "bibtex": "@article{https://doi.org/10.1111/j.1467-8659.2011.02014.x,\n\tauthor = {Nieser, M. and Reitebuch, U. and Polthier, K.},\n\ttitle = {CubeCover– Parameterization of 3D Volumes},\n\tjournal = {Computer Graphics Forum},\n\tvolume = {30},\n\tnumber = {5},\n\tpages = {1397-1406},\n\tkeywords = {I.3.5 Computer Graphics: Curve, surface, solid, and object representations—Computational Geometry and Object Modeling},\n\tdoi = {https://doi.org/10.1111/j.1467-8659.2011.02014.x},\n\turl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2011.02014.x},\n\teprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2011.02014.x},\n\tyear = {2011}\n}",
             "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260317133650.png"
-        },
-        "bibtex_parsed": {
-            "title": "A novel projection of open geometry into rectangular domain for 3D shape parameterization",
-            "author": "undefinedurkovi\\'c, Milan and Marini\\'c-Kragi\\'c, Ivo and Vu\\vcina, Damir",
-            "venue": "Integr. Comput.-Aided Eng.",
-            "doi_url": "https://doi.org/10.3233/ICA-170553",
-            "year": "2017",
-            "month": "January"
-        },
-        "img_path": ".img/2017 - A novel projection of open geometry into rectangular domain for 3D shape parameterization_Pasted image 20260317133650.png"
-    },
-    {
-        "filename": "1963 - How to draw a graph.md",
-        "properties": {
-            "bibtex": "@article{tutte1963draw,\r\n  title={How to draw a graph},\r\n  author={Tutte, William Thomas},\r\n  journal={Proceedings of the London Mathematical Society},\r\n  volume={3},\r\n  number={1},\r\n  pages={743--767},\r\n  year={1963},\r\n  publisher={Oxford University Press}\r\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260323103712.png"
-        },
-        "bibtex_parsed": {
-            "title": "How to draw a graph",
-            "author": "Tutte, William Thomas",
-            "venue": "Proceedings of the London Mathematical Society",
-            "doi_url": "",
-            "year": "1963",
-            "month": ""
-        },
-        "img_path": ".img/1963 - How to draw a graph_Pasted image 20260323103712.png"
-    },
-    {
-        "filename": "2023 TOG - Galaxy Maps - Localized Foliations for Bijective Volumetric Mapping.md",
-        "properties": {
-            "bibtex": "@article{10.1145/3592410,\r\nauthor = {Hinderink, Steffen and Campen, Marcel},\r\ntitle = {Galaxy Maps: Localized Foliations for Bijective Volumetric Mapping},\r\nyear = {2023},\r\nissue_date = {August 2023},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {42},\r\nnumber = {4},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3592410},\r\ndoi = {10.1145/3592410},\r\nabstract = {A method is presented to compute volumetric maps and parametrizations of objects over 3D domains. As a key feature, continuity and bijectivity are ensured by construction. Arbitrary objects of ball topology, represented as tetrahedral meshes, are supported. Arbitrary convex as well as star-shaped domains are supported. Full control over the boundary mapping is provided. The method is based on the technique of simplicial foliations, generalized to a broader class of domain shapes and applied adaptively in a novel localized manner. This increases flexibility as well as efficiency over the state of the art, while maintaining reliability in guaranteeing map bijectivity.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\narticleno = {129},\r\nnumpages = {16},\r\nkeywords = {volumetric parametrization, homeomorphism, star-shaped, foliation, shelling, tetrahedral mesh}\r\n}",
-            "code": "https://github.com/SteffenHinderink/GalaxyMaps",
             "data": "",
             "project": "",
             "slide": "",
             "supplemental": "",
             "tags": [
                 "parameterization",
+                "hex_meshing",
                 "volumetric_mapping"
             ],
-            "teaser": "Pasted image 20260323104350.png"
+            "teaser": "Pasted image 20250705201634.png"
         },
         "bibtex_parsed": {
-            "title": "Galaxy Maps: Localized Foliations for Bijective Volumetric Mapping",
-            "author": "Hinderink, Steffen and Campen, Marcel",
-            "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/3592410",
-            "year": "2023",
-            "month": "July"
+            "title": "CubeCover– Parameterization of 3D Volumes",
+            "author": "Nieser, M. and Reitebuch, U. and Polthier, K.",
+            "venue": "Computer Graphics Forum",
+            "doi_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2011.02014.x",
+            "year": "2011",
+            "month": ""
         },
-        "img_path": ".img/2023 TOG - Galaxy Maps - Localized Foliations for Bijective Volumetric Mapping_Pasted image 20260323104350.png"
+        "img_path": ".img/2011 CGF - CubeCover – Parameterization of 3D Volumes_Pasted image 20250705201634.png"
     },
     {
-        "filename": "2019 TOG - Progressive embedding.md",
+        "filename": "2008 CGF - Spectral Conformal Parameterization.md",
         "properties": {
-            "bibtex": "@article{10.1145/3306346.3323012,\r\nauthor = {Shen, Hanxiao and Jiang, Zhongshi and Zorin, Denis and Panozzo, Daniele},\r\ntitle = {Progressive embedding},\r\nyear = {2019},\r\nissue_date = {August 2019},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {38},\r\nnumber = {4},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3306346.3323012},\r\ndoi = {10.1145/3306346.3323012},\r\nabstract = {Tutte embedding is one of the most common building blocks in geometry processing algorithms due to its simplicity and provable guarantees. Although provably correct in infinite precision arithmetic, it fails in challenging cases when implemented using floating point arithmetic, largely due to the induced exponential area changes.We propose Progressive Embedding, with similar theoretical guarantees to Tutte embedding, but more resilient to the rounding error of floating point arithmetic. Inspired by progressive meshes, we collapse edges on an invalid embedding to a valid, simplified mesh, then insert points back while maintaining validity. We demonstrate the robustness of our method by computing embeddings for a large collection of disk topology meshes.By combining our robust embedding with a variant of the matchmaker algorithm, we propose a general algorithm for the problem of mapping multiply connected domains with arbitrary hard constraints to the plane, with applications in texture mapping and remeshing.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\narticleno = {32},\r\nnumpages = {13},\r\nkeywords = {embedding, locally injective Maps, mesh parametrization, robust geometry processing}\r\n}",
-            "code": "https://github.com/hankstag/progressive_embedding",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization",
-                "progressive"
-            ],
-            "teaser": "Pasted image 20260320104106.png"
-        },
-        "bibtex_parsed": {
-            "title": "Progressive embedding",
-            "author": "Shen, Hanxiao and Jiang, Zhongshi and Zorin, Denis and Panozzo, Daniele",
-            "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/3306346.3323012",
-            "year": "2019",
-            "month": "July"
-        },
-        "img_path": ".img/2019 TOG - Progressive embedding_Pasted image 20260320104106.png"
-    },
-    {
-        "filename": "2017 TOG - Spherical orbifold tutte embeddings.md",
-        "properties": {
-            "bibtex": "@article{10.1145/3072959.3073615,\r\nauthor = {Aigerman, Noam and Kovalsky, Shahar Z. and Lipman, Yaron},\r\ntitle = {Spherical orbifold tutte embeddings},\r\nyear = {2017},\r\nissue_date = {August 2017},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {36},\r\nnumber = {4},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3072959.3073615},\r\ndoi = {10.1145/3072959.3073615},\r\nabstract = {This work presents an algorithm for injectively parameterizing surfaces into spherical target domains called spherical orbifolds. Spherical orbifolds are cone surfaces that are generated from symmetry groups of the sphere. The surface is mapped the spherical orbifold via an extension of Tutte's embedding. This embedding is proven to be bijective under mild additional assumptions, which hold in all experiments performed.This work also completes the adaptation of Tutte's embedding to orbifolds of the three classic geometries - Euclidean, hyperbolic and spherical - where the first two were recently addressed.The spherical orbifold embeddings approximate conformal maps and require relatively low computational times. The constant positive curvature of the spherical orbifolds, along with the flexibility of their cone angles, enables producing embeddings with lower isometric distortion compared to their Euclidean counterparts, a fact that makes spherical orbifolds a natural candidate for surface parameterization.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\narticleno = {90},\r\nnumpages = {13},\r\nkeywords = {orbifolds, spherical parameterization, tutte's embedding}\r\n}",
+            "bibtex": "@article{https://doi.org/10.1111/j.1467-8659.2008.01289.x,\nauthor = {Mullen, Patrick and Tong, Yiying and Alliez, Pierre and Desbrun, Mathieu},\ntitle = {Spectral Conformal Parameterization},\njournal = {Computer Graphics Forum},\nvolume = {27},\nnumber = {5},\npages = {1487-1494},\ndoi = {https://doi.org/10.1111/j.1467-8659.2008.01289.x},\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2008.01289.x},\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8659.2008.01289.x},\nabstract = {Abstract We present a spectral approach to automatically and efficiently obtain discrete free-boundary conformal parameterizations of triangle mesh patches, without the common artifacts due to positional constraints on vertices and without undue bias introduced by sampling irregularity. High-quality parameterizations are computed through a constrained minimization of a discrete weighted conformal energy by finding the largest eigenvalue/eigenvector of a generalized eigenvalue problem involving sparse, symmetric matrices. We demonstrate that this novel and robust approach improves on previous linear techniques both quantitatively and qualitatively.},\nyear = {2008}\n}",
             "code": "",
             "data": "",
             "project": "",
@@ -1047,41 +876,17 @@
             "tags": [
                 "parameterization"
             ],
-            "teaser": "Pasted image 20260323222144.png"
+            "teaser": "Pasted image 20260317135213.png"
         },
         "bibtex_parsed": {
-            "title": "Spherical orbifold tutte embeddings",
-            "author": "Aigerman, Noam and Kovalsky, Shahar Z. and Lipman, Yaron",
-            "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/3072959.3073615",
-            "year": "2017",
-            "month": "July"
+            "title": "Spectral Conformal Parameterization",
+            "author": "Mullen, Patrick and Tong, Yiying and Alliez, Pierre and Desbrun, Mathieu",
+            "venue": "Computer Graphics Forum",
+            "doi_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2008.01289.x",
+            "year": "2008",
+            "month": ""
         },
-        "img_path": ".img/2017 TOG - Spherical orbifold tutte embeddings_Pasted image 20260323222144.png"
-    },
-    {
-        "filename": "2004 TOG - Inter-surface mapping.md",
-        "properties": {
-            "bibtex": "@article{10.1145/1015706.1015812,\r\nauthor = {Schreiner, John and Asirvatham, Arul and Praun, Emil and Hoppe, Hugues},\r\ntitle = {Inter-surface mapping},\r\nyear = {2004},\r\nissue_date = {August 2004},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {23},\r\nnumber = {3},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/1015706.1015812},\r\ndoi = {10.1145/1015706.1015812},\r\nabstract = {We consider the problem of creating a map between two arbitrary triangle meshes. Whereas previous approaches compose parametrizations over a simpler intermediate domain, we directly create and optimize a continuous map between the meshes. Map distortion is measured with a new symmetric metric, and is minimized during interleaved coarse-to-fine refinement of both meshes. By explicitly favoring low inter-surface distortion, we obtain maps that naturally align corresponding shape elements. Typically, the user need only specify a handful of feature correspondences for initial registration, and even these constraints can be removed during optimization. Our method robustly satisfies hard constraints if desired. Inter-surface mapping is shown using geometric and attribute morphs. Our general framework can also be applied to parametrize surfaces onto simplicial domains, such as coarse meshes (for semi-regular remeshing), and octahedron and toroidal domains (for geometry image remeshing). In these settings, we obtain better parametrizations than with previous specialized techniques, thanks to our fine-grain optimization.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = aug,\r\npages = {870–877},\r\nnumpages = {8},\r\nkeywords = {remeshing, shape morphing, surface parametrization}\r\n}",
-            "code": "",
-            "data": "",
-            "project": "",
-            "slide": "",
-            "supplemental": "",
-            "tags": [
-                "parameterization"
-            ],
-            "teaser": "Pasted image 20260322104340.png"
-        },
-        "bibtex_parsed": {
-            "title": "Inter-surface mapping",
-            "author": "Schreiner, John and Asirvatham, Arul and Praun, Emil and Hoppe, Hugues",
-            "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/1015706.1015812",
-            "year": "2004",
-            "month": "August"
-        },
-        "img_path": ".img/2004 TOG - Inter-surface mapping_Pasted image 20260322104340.png"
+        "img_path": ".img/2008 CGF - Spectral Conformal Parameterization_Pasted image 20260317135213.png"
     },
     {
         "filename": "2021 TOG - Guaranteed globally injective 3D deformation processing.md",
@@ -1109,9 +914,84 @@
         "img_path": ".img/2021 TOG - Guaranteed globally injective 3D deformation processing_Pasted image 20260323103234.png"
     },
     {
-        "filename": "2002 TOG - Least squares conformal maps for automatic texture atlas generation.md",
+        "filename": "2006 TOG - Periodic global parameterization.md",
         "properties": {
-            "bibtex": "@article{10.1145/566654.566590,\nauthor = {L\\'{e}vy, Bruno and Petitjean, Sylvain and Ray, Nicolas and Maillot, J\\'{e}rome},\ntitle = {Least squares conformal maps for automatic texture atlas generation},\nyear = {2002},\nissue_date = {July 2002},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {21},\nnumber = {3},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/566654.566590},\ndoi = {10.1145/566654.566590},\nabstract = {A Texture Atlas is an efficient color representation for 3D Paint Systems. The model to be textured is decomposed into charts homeomorphic to discs, each chart is parameterized, and the unfolded charts are packed in texture space. Existing texture atlas methods for triangulated surfaces suffer from several limitations, requiring them to generate a large number of small charts with simple borders. The discontinuities between the charts cause artifacts, and make it difficult to paint large areas with regular patterns.In this paper, our main contribution is a new quasi-conformal parameterization method, based on a least-squares approximation of the Cauchy-Riemann equations. The so-defined objective function minimizes angle deformations, and we prove the following properties: the minimum is unique, independent of a similarity in texture space, independent of the resolution of the mesh and cannot generate triangle flips. The function is numerically well behaved and can therefore be very efficiently minimized. Our approach is robust, and can parameterize large charts with complex borders.We also introduce segmentation methods to decompose the model into charts with natural shapes, and a new packing algorithm to gather them in texture space. We demonstrate our approach applied to paint both scanned and modeled data sets.},\njournal = {ACM Trans. Graph.},\nmonth = jul,\npages = {362–371},\nnumpages = {10},\nkeywords = {texture mapping, polygonal modeling, paint systems}\n}\n\n@inbook{10.1145/3596711.3596734,\nauthor = {Levy, Bruno and Petitjean, Sylvain and Ray, Nicolas and Maillot, J\\'{e}rome},\ntitle = {Least squares conformal maps for automatic texture atlas generation},\nyear = {2023},\nisbn = {9798400708978},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nedition = {1},\nurl = {https://doi.org/10.1145/3596711.3596734},\nabstract = {A Texture Atlas is an efficient color representation for 3D Paint Systems. The model to be textured is decomposed into charts homeomorphic to discs, each chart is parameterized, and the unfolded charts are packed in texture space. Existing texture atlas methods for triangulated surfaces suffer from several limitations, requiring them to generate a large number of small charts with simple borders. The discontinuities between the charts cause artifacts, and make it difficult to paint large areas with regular patterns.In this paper, our main contribution is a new quasi-conformal parameterization method, based on a least-squares approximation of the Cauchy-Riemann equations. The so-defined objective function minimizes angle deformations, and we prove the following properties: the minimum is unique, independent of a similarity in texture space, independent of the resolution of the mesh and cannot generate triangle flips. The function is numerically well behaved and can therefore be very efficiently minimized. Our},\nbooktitle = {Seminal Graphics Papers: Pushing the Boundaries, Volume 2},\narticleno = {22},\nnumpages = {10}\n}",
+            "bibtex": "@article{10.1145/1183287.1183297,\nauthor = {Ray, Nicolas and Li, Wan Chiu and L\\'{e}vy, Bruno and Sheffer, Alla and Alliez, Pierre},\ntitle = {Periodic global parameterization},\nyear = {2006},\nissue_date = {October 2006},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {25},\nnumber = {4},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/1183287.1183297},\ndoi = {10.1145/1183287.1183297},\njournal = {ACM Trans. Graph.},\nmonth = oct,\npages = {1460–1485},\nnumpages = {26},\nkeywords = {parameterization, conformality, Mesh processing}\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "directional",
+                "integrable",
+                "parameterization",
+                "cross_field"
+            ],
+            "teaser": "Pasted image 20260215214409.png"
+        },
+        "bibtex_parsed": {
+            "title": "Periodic global parameterization",
+            "author": "Ray, Nicolas and Li, Wan Chiu and L\\'evy, Bruno and Sheffer, Alla and Alliez, Pierre",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/1183287.1183297",
+            "year": "2006",
+            "month": "October"
+        },
+        "img_path": ".img/2006 TOG - Periodic global parameterization_Pasted image 20260215214409.png"
+    },
+    {
+        "filename": "2024 CGF - Advancing Front Surface Mapping.md",
+        "properties": {
+            "bibtex": "@article{https://doi.org/10.1111/cgf.15026,\r\nauthor = {Livesu, M.},\r\ntitle = {Advancing Front Surface Mapping},\r\njournal = {Computer Graphics Forum},\r\nvolume = {43},\r\nnumber = {2},\r\npages = {e15026},\r\ndoi = {https://doi.org/10.1111/cgf.15026},\r\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.15026},\r\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.15026},\r\nabstract = {Abstract We present Advancing Front Mapping (AFM), a novel algorithm for the computation of injective maps to simple planar domains. AFM is inspired by the advancing front meshing paradigm, which is here revisited to operate on two embeddings at once, becoming a tool for compatible mesh generation. AFM extends the capabilities of existing robust approaches, supporting a broader set of embeddings (star-shaped polygons) with a direct approach, without resorting to intermediate constructions. Our method only relies on two topological operators (split and flip) and on the computation of segment intersections, thus permitting to compute a valid embedding without solving any numerical problem. AFM is therefore easy to implement, debug and deploy. This article is mainly focused on the presentation of the compatible advancing front idea and on the demonstration that the algorithm provably converges to an injective map. We also complement our theoretical analysis with an extensive practical validation, executing more than one billion advancing front moves on 36K mapping tasks.},\r\nyear = {2024}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260323104155.png"
+        },
+        "bibtex_parsed": {
+            "title": "Advancing Front Surface Mapping",
+            "author": "Livesu, M.",
+            "venue": "Computer Graphics Forum",
+            "doi_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.15026",
+            "year": "2024",
+            "month": ""
+        },
+        "img_path": ".img/2024 CGF - Advancing Front Surface Mapping_Pasted image 20260323104155.png"
+    },
+    {
+        "filename": "2009 TOG - Möbius voting for surface correspondence.md",
+        "properties": {
+            "bibtex": "@article{10.1145/1531326.1531378,\r\nauthor = {Lipman, Yaron and Funkhouser, Thomas},\r\ntitle = {M\\\"{o}bius voting for surface correspondence},\r\nyear = {2009},\r\nissue_date = {August 2009},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {28},\r\nnumber = {3},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/1531326.1531378},\r\ndoi = {10.1145/1531326.1531378},\r\nabstract = {The goal of our work is to develop an efficient, automatic algorithm for discovering point correspondences between surfaces that are approximately and/or partially isometric.Our approach is based on three observations. First, isometries are a subset of the M\\\"{o}bius group, which has low-dimensionality -- six degrees of freedom for topological spheres, and three for topological discs. Second, computing the M\\\"{o}bius transformation that interpolates any three points can be computed in closed-form after a mid-edge flattening to the complex plane. Third, deviations from isometry can be modeled by a transportation-type distance between corresponding points in that plane.Motivated by these observations, we have developed a M\\\"{o}bius Voting algorithm that iteratively: 1) samples a triplet of three random points from each of two point sets, 2) uses the M\\\"{o}bius transformations defined by those triplets to map both point sets into a canonical coordinate frame on the complex plane, and 3) produces \"votes\" for predicted correspondences between the mutually closest points with magnitude representing their estimated deviation from isometry. The result of this process is a fuzzy correspondence matrix, which is converted to a permutation matrix with simple matrix operations and output as a discrete set of point correspondences with confidence values.The main advantage of this algorithm is that it can find intrinsic point correspondences in cases of extreme deformation. During experiments with a variety of data sets, we find that it is able to find dozens of point correspondences between different object types in different poses fully automatically.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\narticleno = {72},\r\nnumpages = {12}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260323102715.png"
+        },
+        "bibtex_parsed": {
+            "title": "M\\\"obius voting for surface correspondence",
+            "author": "Lipman, Yaron and Funkhouser, Thomas",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/1531326.1531378",
+            "year": "2009",
+            "month": "July"
+        },
+        "img_path": ".img/2009 TOG - Möbius voting for surface correspondence_Pasted image 20260323102715.png"
+    },
+    {
+        "filename": "2001 - Constrained texture mapping for polygonal meshes.md",
+        "properties": {
+            "bibtex": "@inproceedings{10.1145/383259.383308,\nauthor = {L\\'{e}vy, Bruno},\ntitle = {Constrained texture mapping for polygonal meshes},\nyear = {2001},\nisbn = {158113374X},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/383259.383308},\ndoi = {10.1145/383259.383308},\nabstract = {Recently, time and effort have been devoted to automatic texture mapping. It is possible to study the parameterization function and to describe the texture mapping process in terms of a functional optimization problem. Several methods of this type have been proposed to minimize deformations. However, these existing methods suffer from several limitations. For instance, it is difficult to put details of the texture in correspondence with features of the model, since most of the existing methods can only constrain iso-parametric curves.We introduce in this paper a new optimization-based method for parameterizing polygonal meshes with minimum deformations, while enabling the user to interactively define and edit a set of constraints. Each user-defined constraint consists of a relation linking a 3D point picked on the surface and a 2D point of the texture. Moreover, the non-deformation criterion introduced here can act as an extrapolator, thus making it unnecessary to constrain the border of the surface, in contrast with classic methods. To minimize the criterion, a conjugate gradient algorithm is combined with a compressed representation of sparse matrices, making it possible to achieve a fast convergence.},\nbooktitle = {Proceedings of the 28th Annual Conference on Computer Graphics and Interactive Techniques},\npages = {417–424},\nnumpages = {8},\nkeywords = {texture mapping, polygonal modeling, paint systems},\nseries = {SIGGRAPH '01}\n}",
             "code": "https://github.com/BrunoLevy/geogram",
             "data": "",
             "project": "",
@@ -1120,22 +1000,118 @@
             "tags": [
                 "parameterization"
             ],
-            "teaser": "Pasted image 20260317134401.png"
+            "teaser": "Pasted image 20260317135354.png"
         },
         "bibtex_parsed": {
-            "title": "Least squares conformal maps for automatic texture atlas generation",
-            "author": "L\\'evy, Bruno and Petitjean, Sylvain and Ray, Nicolas and Maillot, J\\'erome",
-            "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/566654.566590",
-            "year": "2002",
-            "month": "July"
+            "title": "Constrained texture mapping for polygonal meshes",
+            "author": "L\\'evy, Bruno",
+            "venue": "Proceedings of the 28th Annual Conference on Computer Graphics and Interactive Techniques",
+            "doi_url": "https://doi.org/10.1145/383259.383308",
+            "year": "2001",
+            "month": ""
         },
-        "img_path": ".img/2002 TOG - Least squares conformal maps for automatic texture atlas generation_Pasted image 20260317134401.png"
+        "img_path": ".img/2001 - Constrained texture mapping for polygonal meshes_Pasted image 20260317135354.png"
     },
     {
-        "filename": "2021 TOG - Foldover-free maps in 50 lines of code.md",
+        "filename": "1997 CAGD - Parametrization and smooth approximation of surface triangulations.md",
         "properties": {
-            "bibtex": "@article{10.1145/3450626.3459847,\nauthor = {Garanzha, Vladimir and Kaporin, Igor and Kudryavtseva, Liudmila and Protais, Fran\\c{c}ois and Ray, Nicolas and Sokolov, Dmitry},\ntitle = {Foldover-free maps in 50 lines of code},\nyear = {2021},\nissue_date = {August 2021},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {40},\nnumber = {4},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3450626.3459847},\ndoi = {10.1145/3450626.3459847},\njournal = {ACM Trans. Graph.},\nmonth = jul,\narticleno = {102},\nnumpages = {16},\nkeywords = {parameterization, mesh untangling, injective mapping}\n}",
+            "bibtex": "@article{FLOATER1997231,\ntitle = {Parametrization and smooth approximation of surface triangulations},\njournal = {Computer Aided Geometric Design},\nvolume = {14},\nnumber = {3},\npages = {231-250},\nyear = {1997},\nissn = {0167-8396},\ndoi = {https://doi.org/10.1016/S0167-8396(96)00031-3},\nurl = {https://www.sciencedirect.com/science/article/pii/S0167839696000313},\nauthor = {Michael S. Floater},\nkeywords = {Surface triangulations, Approximation, Parametrization, Planar graphs, Straight-line drawing},\nabstract = {A method based on graph theory is investigated for creating global parametrizations for surface triangulations for the purpose of smooth surface fitting. The parametrizations, which are planar triangulations, are the solutions of linear systems based on convex combinations. A particular parametrization, called shape-preserving, is found to lead to visually smooth surface approximations.}\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260323221544.png"
+        },
+        "bibtex_parsed": {
+            "title": "Parametrization and smooth approximation of surface triangulations",
+            "author": "Michael S. Floater",
+            "venue": "Computer Aided Geometric Design",
+            "doi_url": "https://www.sciencedirect.com/science/article/pii/S0167839696000313",
+            "year": "1997",
+            "month": ""
+        },
+        "img_path": ".img/1997 CAGD - Parametrization and smooth approximation of surface triangulations_Pasted image 20260323221544.png"
+    },
+    {
+        "filename": "2015 TOG - Computing locally injective mappings by advanced MIPS.md",
+        "properties": {
+            "bibtex": "@article{10.1145/2766938,\r\nauthor = {Fu, Xiao-Ming and Liu, Yang and Guo, Baining},\r\ntitle = {Computing locally injective mappings by advanced MIPS},\r\nyear = {2015},\r\nissue_date = {August 2015},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {34},\r\nnumber = {4},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/2766938},\r\ndoi = {10.1145/2766938},\r\nabstract = {Computing locally injective mappings with low distortion in an efficient way is a fundamental task in computer graphics. By revisiting the well-known MIPS (Most-Isometric ParameterizationS) method, we introduce an advanced MIPS method that inherits the local injectivity of MIPS, achieves as low as possible distortions compared to the state-of-the-art locally injective mapping techniques, and performs one to two orders of magnitude faster in computing a mesh-based mapping. The success of our method relies on two key components. The first one is an enhanced MIPS energy function that penalizes the maximal distortion significantly and distributes the distortion evenly over the domain for both mesh-based and meshless mappings. The second is a use of the inexact block coordinate descent method in mesh-based mapping in a way that efficiently minimizes the distortion with the capability not to be trapped early by the local minimum. We demonstrate the capability and superiority of our method in various applications including mesh parameterization, mesh-based and meshless deformation, and mesh improvement.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\narticleno = {71},\r\nnumpages = {12},\r\nkeywords = {parameterization, mesh improvement, locally injective mapping, inexact block coordinate descent methods, deformation}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260323222820.png"
+        },
+        "bibtex_parsed": {
+            "title": "Computing locally injective mappings by advanced MIPS",
+            "author": "Fu, Xiao-Ming and Liu, Yang and Guo, Baining",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/2766938",
+            "year": "2015",
+            "month": "July"
+        },
+        "img_path": ".img/2015 TOG - Computing locally injective mappings by advanced MIPS_Pasted image 20260323222820.png"
+    },
+    {
+        "filename": "2003 TOG - Matchmaker - constructing constrained texture maps.md",
+        "properties": {
+            "bibtex": "@article{10.1145/882262.882271,\r\nauthor = {Kraevoy, Vladislav and Sheffer, Alla and Gotsman, Craig},\r\ntitle = {Matchmaker: constructing constrained texture maps},\r\nyear = {2003},\r\nissue_date = {July 2003},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {22},\r\nnumber = {3},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/882262.882271},\r\ndoi = {10.1145/882262.882271},\r\nabstract = {Texture mapping enhances the visual realism of 3D models by adding fine details. To achieve the best results, it is often necessary to force a correspondence between some of the details of the texture and the features of the model.The most common method for mapping texture onto 3D meshes is to use a planar parameterization of the mesh. This, however, does not reflect any special correspondence between the mesh geometry and the texture. The Matchmaker algorithm presented here forces user-defined feature correspondence for planar parameterization of meshes. This is achieved by adding positional constraints to the planar parameterization. Matchmaker allows users to introduce scores of constraints while maintaining a valid one-to-one mapping between the embedding and the 3D surface. Matchmaker's constraint mechanism can be used for other applications requiring parameterization besides texture mapping, such as morphing and remeshing.Matchmaker begins with an unconstrained planar embedding of the 3D mesh generated by conventional methods. It moves the constrained vertices to the required positions by matching a triangulation of these positions to a triangulation of the planar mesh formed by paths between constrained vertices. The matching triangulations are used to generate a new parameterization that satisfies the constraints while minimizing the deviation from the original 3D geometry.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\npages = {326–333},\r\nnumpages = {8},\r\nkeywords = {parameterization, texture mapping, triangle meshes}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260322225020.png"
+        },
+        "bibtex_parsed": {
+            "title": "Matchmaker: constructing constrained texture maps",
+            "author": "Kraevoy, Vladislav and Sheffer, Alla and Gotsman, Craig",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/882262.882271",
+            "year": "2003",
+            "month": "July"
+        },
+        "img_path": ".img/2003 TOG - Matchmaker - constructing constrained texture maps_Pasted image 20260322225020.png"
+    },
+    {
+        "filename": "2005 - ABF++ - fast and robust angle based flattening.md",
+        "properties": {
+            "bibtex": "@article{10.1145/1061347.1061354,\nauthor = {Sheffer, Alla and L\\'{e}vy, Bruno and Mogilnitsky, Maxim and Bogomyakov, Alexander},\ntitle = {ABF++: fast and robust angle based flattening},\nyear = {2005},\nissue_date = {April 2005},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {24},\nnumber = {2},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/1061347.1061354},\ndoi = {10.1145/1061347.1061354},\nabstract = {Conformal parameterization of mesh models has numerous applications in geometry processing. Conformality is desirable for remeshing, surface reconstruction, and many other mesh processing applications. Subject to the conformality requirement, these applications typically benefit from parameterizations with smaller stretch. The Angle Based Flattening (ABF) method, presented a few years ago, generates provably valid conformal parameterizations with low stretch. However, it is quite time-consuming and becomes error prone for large meshes due to numerical error accumulation. This work presents ABF++, a highly efficient extension of the ABF method, that overcomes these drawbacks while maintaining all the advantages of ABF. ABF++ robustly parameterizes meshes of hundreds of thousands and millions of triangles within minutes. It is based on three main components: (1) a new numerical solution technique that dramatically reduces the dimension of the linear systems solved at each iteration, speeding up the solution; (2) a new robust scheme for reconstructing the 2D coordinates from the angle space solution that avoids the numerical instabilities which hindered the ABF reconstruction scheme; and (3) an efficient hierarchical solution technique. The speedup with (1) does not come at the expense of greater distortion. The hierarchical technique (3) enables parameterization of models with millions of faces in seconds at the expense of a minor increase in parametric distortion. The parameterization computed by ABF++ are provably valid, that is they contain no flipped triangles. As a result of these extensions, the ABF++ method is extremely suitable for robustly and efficiently parameterizing models for geometry-processing applications.},\njournal = {ACM Trans. Graph.},\nmonth = apr,\npages = {311–330},\nnumpages = {20},\nkeywords = {parameterization, conformality, Mesh processing}\n}",
+            "code": "https://github.com/BrunoLevy/geogram",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260317135043.png"
+        },
+        "bibtex_parsed": {
+            "title": "ABF++: fast and robust angle based flattening",
+            "author": "Sheffer, Alla and L\\'evy, Bruno and Mogilnitsky, Maxim and Bogomyakov, Alexander",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/1061347.1061354",
+            "year": "2005",
+            "month": "April"
+        },
+        "img_path": ".img/2005 - ABF++ - fast and robust angle based flattening_Pasted image 20260317135043.png"
+    },
+    {
+        "filename": "2021 TOG - Direct Seamless Parametrization.md",
+        "properties": {
+            "bibtex": "@article{10.1145/3439828,\r\nauthor = {Levi, Zohar},\r\ntitle = {Direct Seamless Parametrization},\r\nyear = {2021},\r\nissue_date = {February 2021},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {40},\r\nnumber = {1},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3439828},\r\ndoi = {10.1145/3439828},\r\nabstract = {We present a method for seamless surface parametrization. Recent popular methods first generate a cross-field, where curvature is concentrated at singular vertices. Next, in a separate step, the surface is laid out in the domain subject to derived seamlessness constraints. This decoupling of the process into two independent problems, each with its own objective, leads to suboptimal results. In contrast, our method solves both problems together using domain variables.The key ingredient to the robustness of our method is a rounding strategy based on local estimation. The insight is that testing a small patch to decide between two likely possibilities is a good estimator.Most distortion measures can be used with our method, which get minimized consistently throughout the pipeline. Our method also enables feature alignment, as well as alignment to principle curvatures, and isotropic and anisotropic scaling.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jan,\r\narticleno = {6},\r\nnumpages = {14},\r\nkeywords = {locally injective mappings, bounded distortion, Parametrization}\r\n}",
             "code": "",
             "data": "",
             "project": "",
@@ -1143,18 +1119,42 @@
             "supplemental": "",
             "tags": [
                 "parameterization",
-                "volumetric_mapping"
+                "seamless"
             ],
-            "teaser": "Pasted image 20260223214820.png"
+            "teaser": "Pasted image 20260323101925.png"
         },
         "bibtex_parsed": {
-            "title": "Foldover-free maps in 50 lines of code",
-            "author": "Garanzha, Vladimir and Kaporin, Igor and Kudryavtseva, Liudmila and Protais, Fran\\ccois and Ray, Nicolas and Sokolov, Dmitry",
+            "title": "Direct Seamless Parametrization",
+            "author": "Levi, Zohar",
             "venue": "ACM Trans. Graph.",
-            "doi_url": "https://doi.org/10.1145/3450626.3459847",
+            "doi_url": "https://doi.org/10.1145/3439828",
             "year": "2021",
-            "month": "July"
+            "month": "January"
         },
-        "img_path": ".img/2021 TOG - Foldover-free maps in 50 lines of code_Pasted image 20260223214820.png"
+        "img_path": ".img/2021 TOG - Direct Seamless Parametrization_Pasted image 20260323101925.png"
+    },
+    {
+        "filename": "2015 TOG - Orbifold Tutte embeddings.md",
+        "properties": {
+            "bibtex": "@article{10.1145/2816795.2818099,\r\nauthor = {Aigerman, Noam and Lipman, Yaron},\r\ntitle = {Orbifold Tutte embeddings},\r\nyear = {2015},\r\nissue_date = {November 2015},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {34},\r\nnumber = {6},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/2816795.2818099},\r\ndoi = {10.1145/2816795.2818099},\r\nabstract = {Injective parameterizations of surface meshes are vital for many applications in Computer Graphics, Geometry Processing and related fields. Tutte's embedding, and its generalization to convex combination maps, are among the most popular approaches for computing parameterizations of surface meshes into the plane, as they guarantee injectivity, and their computation only requires solving a sparse linear system. However, they are only applicable to disk-type and toric surface meshes.In this paper we suggest a generalization of Tutte's embedding to other surface topologies, and in particular the common, yet untreated case, of sphere-type surfaces. The basic idea is to enforce certain boundary conditions on the parameterization so as to achieve a Euclidean orbifold structure. The orbifold-Tutte embedding is a seamless, globally bijective parameterization that, similarly to the classic Tutte embedding, only requires solving a sparse linear system for its computation.In case the cotangent weights are used, the orbifold-Tutte embedding globally minimizes the Dirichlet energy and is shown to approximate conformal and four-point quasiconformal mappings. As far as we are aware, this is the first fully-linear method that produces bijective approximations to conformal mappings.Aside from parameterizations, the orbifold-Tutte embedding can be used to generate bijective inter-surface mappings with three or four landmarks and symmetric patterns on sphere-type surfaces.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = nov,\r\narticleno = {190},\r\nnumpages = {12},\r\nkeywords = {conformal maps, convex combination map, discrete harmonic, injective parameterization, tutte embedding}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260323222000.png"
+        },
+        "bibtex_parsed": {
+            "title": "Orbifold Tutte embeddings",
+            "author": "Aigerman, Noam and Lipman, Yaron",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/2816795.2818099",
+            "year": "2015",
+            "month": "November"
+        },
+        "img_path": ".img/2015 TOG - Orbifold Tutte embeddings_Pasted image 20260323222000.png"
     }
 ]
