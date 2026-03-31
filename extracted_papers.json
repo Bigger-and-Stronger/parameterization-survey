@@ -29,7 +29,7 @@
             "bibtex": "@article{https://doi.org/10.1111/cgf.14915,\nauthor = {Cherchi, G. and Livesu, M.},\ntitle = {VOLMAP: a Large Scale Benchmark for Volume Mappings to Simple Base Domains},\njournal = {Computer Graphics Forum},\nvolume = {42},\nnumber = {5},\npages = {e14915},\ndoi = {https://doi.org/10.1111/cgf.14915},\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14915},\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14915},\nyear = {2023}\n}",
             "code": "",
             "data": "",
-            "project": "",
+            "project": "https://volmap.github.io",
             "slide": "",
             "supplemental": "",
             "tags": [
@@ -122,6 +122,30 @@
             "month": ""
         },
         "img_path": ".img/2007 CGF - QuadCover - Surface Parameterization using Branched Coverings_Pasted image 20260301154805.png"
+    },
+    {
+        "filename": "2020 arXiv - Mapping Surfaces with Earcut.md",
+        "properties": {
+            "bibtex": "@misc{livesu2020mappingsurfacesearcut,\n      title={Mapping Surfaces with Earcut}, \n      author={Marco Livesu},\n      year={2020},\n      eprint={2012.08233},\n      archivePrefix={arXiv},\n      primaryClass={cs.CG},\n      url={https://arxiv.org/abs/2012.08233}, \n}",
+            "code": "https://github.com/mlivesu/cinolib/blob/master/include/cinolib/earcut_mapping.h",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260328121807.png"
+        },
+        "bibtex_parsed": {
+            "title": "Mapping Surfaces with Earcut",
+            "author": "Marco Livesu",
+            "venue": "",
+            "doi_url": "https://arxiv.org/abs/2012.08233",
+            "year": "2020",
+            "month": ""
+        },
+        "img_path": ".img/2020 arXiv - Mapping Surfaces with Earcut_Pasted image 20260328121807.png"
     },
     {
         "filename": "2007 - Mesh Parameterization Methods and Their Applications.md",
@@ -446,6 +470,24 @@
         "img_path": ".img/1998 - Non-distorted texture mapping for sheared triangulated meshes_Pasted image 20260317135514.png"
     },
     {
+        "filename": "2024 - To What Extent Are Existing Volume Mapping Algorithms Practically Useful.md",
+        "properties": {
+            "bibtex": "@inproceedings{MCSL24,\n  author    = {Meloni, Federico and Cherchi, Gianmarco and Scateni, Riccardo and Livesu, Marco},\n  booktitle = {Smart Tools and Applications in Graphics (STAG)},\n  title     = {To What Extent Are Existing Volume Mapping Algorithms Practically Useful?},\n  year      = {2024},\n  publisher = {The Eurographics Association},\n  ISBN      = {978-3-03868-265-3}\n  DOI       = {10.2312/stag.20241346}\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization",
+                "volumetric_mapping"
+            ],
+            "teaser": "Pasted image 20260328122534.png"
+        },
+        "bibtex_parsed": {},
+        "img_path": ".img/2024 - To What Extent Are Existing Volume Mapping Algorithms Practically Useful_Pasted image 20260328122534.png"
+    },
+    {
         "filename": "2019 CGF - Practical Foldover-Free Volumetric Mapping Construction.md",
         "properties": {
             "bibtex": "@article{https://doi.org/10.1111/cgf.13837,\r\nauthor = {Su, Jian-Ping and Fu, Xiao-Ming and Liu, Ligang},\r\ntitle = {Practical Foldover-Free Volumetric Mapping Construction},\r\njournal = {Computer Graphics Forum},\r\nvolume = {38},\r\nnumber = {7},\r\npages = {287-297},\r\nkeywords = {CCS Concepts, • Computing methodologies → Shape modeling},\r\ndoi = {https://doi.org/10.1111/cgf.13837},\r\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13837},\r\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13837},\r\nabstract = {Abstract In this paper, we present a practically robust method for computing foldover-free volumetric mappings with hard linear constraints. Central to this approach is a projection algorithm that monotonically and efficiently decreases the distance from the mapping to the bounded conformal distortion mapping space. After projection, the conformal distortion of the updated mapping tends to be below the given bound, thereby significantly reducing foldovers. Since it is non-trivial to define an optimal bound, we introduce a practical conformal distortion bound generation scheme to facilitate subsequent projections. By iteratively generating conformal distortion bounds and trying to project mappings into bounded conformal distortion spaces monotonically, our algorithm achieves high-quality foldover-free volumetric mappings with strong practical robustness and high efficiency. Compared with existing methods, our method computes mesh-based and meshless volumetric mappings with no prescribed conformal distortion bounds. We demonstrate the efficacy and efficiency of our method through a variety of geometric processing tasks.},\r\nyear = {2019}\r\n}",
@@ -493,6 +535,32 @@
             "month": ""
         },
         "img_path": ".img/2000 - MIPS - An Efficient Global Parametrization Method_Pasted image 20260323222704.png"
+    },
+    {
+        "filename": "2022 TOG - Which cross fields can be quadrangulated - global parameterization from prescribed holonomy signatures.md",
+        "properties": {
+            "bibtex": "@article{10.1145/3528223.3530187,\nauthor = {Shen, Hanxiao and Zhu, Leyi and Capouellez, Ryan and Panozzo, Daniele and Campen, Marcel and Zorin, Denis},\ntitle = {Which cross fields can be quadrangulated? global parameterization from prescribed holonomy signatures},\nyear = {2022},\nissue_date = {July 2022},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {41},\nnumber = {4},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3528223.3530187},\ndoi = {10.1145/3528223.3530187},\nabstract = {We describe a method for the generation of seamless surface parametrizations with guaranteed local injectivity and full control over holonomy. Previous methods guarantee only one of the two. Local injectivity is required to enable these parametrizations' use in applications such as surface quadrangulation and spline construction. Holonomy control is crucial to enable guidance or prescription of the parametrization's isocurves based on directional information, in particular from cross-fields or feature curves, and more generally to constrain the parametrization topologically. To this end we investigate the relation between cross-field topology and seamless parametrization topology. Leveraging previous results on locally injective parametrization and combining them with insights on this relation in terms of holonomy, we propose an algorithm that meets these requirements. A key component relies on the insight that arbitrary surface cut graphs, as required for global parametrization, can be homeomorphically modified to assume almost any set of turning numbers with respect to a given target cross-field.},\njournal = {ACM Trans. Graph.},\nmonth = jul,\narticleno = {59},\nnumpages = {12},\nkeywords = {conformal map, cross field, holonomy, quad mesh, seamless parametrization, turning number}\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization",
+                "directional",
+                "quadrangulate"
+            ],
+            "teaser": "Pasted image 20260329125159.png"
+        },
+        "bibtex_parsed": {
+            "title": "Which cross fields can be quadrangulated? global parameterization from prescribed holonomy signatures",
+            "author": "Shen, Hanxiao and Zhu, Leyi and Capouellez, Ryan and Panozzo, Daniele and Campen, Marcel and Zorin, Denis",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/3528223.3530187",
+            "year": "2022",
+            "month": "July"
+        },
+        "img_path": ".img/2022 TOG - Which cross fields can be quadrangulated - global parameterization from prescribed holonomy signatures_Pasted image 20260329125159.png"
     },
     {
         "filename": "2023 TOG - The Method of Moving Frames for Surface Global Parametrization.md",
@@ -714,6 +782,31 @@
             "month": "November"
         },
         "img_path": ".img/2017 TOG - Simplicial complex augmentation framework for bijective maps_Pasted image 20260315212520.png"
+    },
+    {
+        "filename": "2026 arXiv - Volumetric Functional Maps.md",
+        "properties": {
+            "bibtex": "@misc{maggioli2026volumetricfunctionalmaps,\n      title={Volumetric Functional Maps}, \n      author={Filippo Maggioli and Simone Melzi and Marco Livesu},\n      year={2026},\n      eprint={2506.13212},\n      archivePrefix={arXiv},\n      primaryClass={cs.GR},\n      url={https://arxiv.org/abs/2506.13212}, \n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization",
+                "volumetric_mapping"
+            ],
+            "teaser": "Pasted image 20260328122027.png"
+        },
+        "bibtex_parsed": {
+            "title": "Volumetric Functional Maps",
+            "author": "Filippo Maggioli and Simone Melzi and Marco Livesu",
+            "venue": "",
+            "doi_url": "https://arxiv.org/abs/2506.13212",
+            "year": "2026",
+            "month": ""
+        },
+        "img_path": ".img/2026 arXiv - Volumetric Functional Maps_Pasted image 20260328122027.png"
     },
     {
         "filename": "2002 TOG - Least squares conformal maps for automatic texture atlas generation.md",
@@ -944,7 +1037,7 @@
         "filename": "2024 CGF - Advancing Front Surface Mapping.md",
         "properties": {
             "bibtex": "@article{https://doi.org/10.1111/cgf.15026,\r\nauthor = {Livesu, M.},\r\ntitle = {Advancing Front Surface Mapping},\r\njournal = {Computer Graphics Forum},\r\nvolume = {43},\r\nnumber = {2},\r\npages = {e15026},\r\ndoi = {https://doi.org/10.1111/cgf.15026},\r\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.15026},\r\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.15026},\r\nabstract = {Abstract We present Advancing Front Mapping (AFM), a novel algorithm for the computation of injective maps to simple planar domains. AFM is inspired by the advancing front meshing paradigm, which is here revisited to operate on two embeddings at once, becoming a tool for compatible mesh generation. AFM extends the capabilities of existing robust approaches, supporting a broader set of embeddings (star-shaped polygons) with a direct approach, without resorting to intermediate constructions. Our method only relies on two topological operators (split and flip) and on the computation of segment intersections, thus permitting to compute a valid embedding without solving any numerical problem. AFM is therefore easy to implement, debug and deploy. This article is mainly focused on the presentation of the compatible advancing front idea and on the demonstration that the algorithm provably converges to an injective map. We also complement our theoretical analysis with an extensive practical validation, executing more than one billion advancing front moves on 36K mapping tasks.},\r\nyear = {2024}\r\n}",
-            "code": "",
+            "code": "https://github.com/mlivesu/cinolib/blob/master/include/cinolib/AFM/AFM.h",
             "data": "",
             "project": "",
             "slide": "",
