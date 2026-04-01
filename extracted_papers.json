@@ -1227,6 +1227,31 @@
         "img_path": ".img/2021 TOG - Direct Seamless Parametrization_Pasted image 20260323101925.png"
     },
     {
+        "filename": "2019 CGF - Exact Constraint Satisfaction for Truly Seamless Parametrization.md",
+        "properties": {
+            "bibtex": "@article{https://doi.org/10.1111/cgf.13625,\r\nauthor = {Mandad, M. and Campen, M.},\r\ntitle = {Exact Constraint Satisfaction for Truly Seamless Parametrization},\r\njournal = {Computer Graphics Forum},\r\nvolume = {38},\r\nnumber = {2},\r\npages = {135-145},\r\nkeywords = {CCS Concepts, • Computing methodologies → Computer graphics, Mesh models, Mesh geometry models, Shape modeling},\r\ndoi = {https://doi.org/10.1111/cgf.13625},\r\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13625},\r\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13625},\r\nabstract = {Abstract In the field of global surface parametrization a recent focus has been on so-called seamless parametrization. This term refers to parametrization approaches which, while using an atlas of charts to enable the handling of surfaces of arbitrary topology, relate the parametrization across the cuts between charts via transition functions from special classes of transformations. This effectively makes the cuts invisible to applications which are invariant to these specific transformations in some sense. In actual implementations of these parametrization approaches, however, these restrictions are obeyed only approximately; errors stem from the tolerances of numerical solvers employed and, ultimately, from the limited accuracy of floating point arithmetic. In practice, robustness issues arise from these flaws in the seamlessness of a parametrization, no matter how small. We present a robust global algorithm that turns a given approximately seamless parametrization into an exactly seamless one - that still is representable by standard floating point numbers. It supports common practically relevant additional constraints regarding boundary and feature curve alignment or isocurve connectivity, and ensures that these are likewise fulfilled exactly. This allows subsequent algorithms to operate robustly on the resulting truly seamless parametrization. We believe that the core of our method will furthermore be of benefit in a broader range of applications involving linearly constrained numerical optimization.},\r\nyear = {2019}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization",
+                "seamless"
+            ],
+            "teaser": "Pasted image 20260331201519.png"
+        },
+        "bibtex_parsed": {
+            "title": "Exact Constraint Satisfaction for Truly Seamless Parametrization",
+            "author": "Mandad, M. and Campen, M.",
+            "venue": "Computer Graphics Forum",
+            "doi_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13625",
+            "year": "2019",
+            "month": ""
+        },
+        "img_path": ".img/2019 CGF - Exact Constraint Satisfaction for Truly Seamless Parametrization_Pasted image 20260331201519.png"
+    },
+    {
         "filename": "2015 TOG - Orbifold Tutte embeddings.md",
         "properties": {
             "bibtex": "@article{10.1145/2816795.2818099,\r\nauthor = {Aigerman, Noam and Lipman, Yaron},\r\ntitle = {Orbifold Tutte embeddings},\r\nyear = {2015},\r\nissue_date = {November 2015},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {34},\r\nnumber = {6},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/2816795.2818099},\r\ndoi = {10.1145/2816795.2818099},\r\nabstract = {Injective parameterizations of surface meshes are vital for many applications in Computer Graphics, Geometry Processing and related fields. Tutte's embedding, and its generalization to convex combination maps, are among the most popular approaches for computing parameterizations of surface meshes into the plane, as they guarantee injectivity, and their computation only requires solving a sparse linear system. However, they are only applicable to disk-type and toric surface meshes.In this paper we suggest a generalization of Tutte's embedding to other surface topologies, and in particular the common, yet untreated case, of sphere-type surfaces. The basic idea is to enforce certain boundary conditions on the parameterization so as to achieve a Euclidean orbifold structure. The orbifold-Tutte embedding is a seamless, globally bijective parameterization that, similarly to the classic Tutte embedding, only requires solving a sparse linear system for its computation.In case the cotangent weights are used, the orbifold-Tutte embedding globally minimizes the Dirichlet energy and is shown to approximate conformal and four-point quasiconformal mappings. As far as we are aware, this is the first fully-linear method that produces bijective approximations to conformal mappings.Aside from parameterizations, the orbifold-Tutte embedding can be used to generate bijective inter-surface mappings with three or four landmarks and symmetric patterns on sphere-type surfaces.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = nov,\r\narticleno = {190},\r\nnumpages = {12},\r\nkeywords = {conformal maps, convex combination map, discrete harmonic, injective parameterization, tutte embedding}\r\n}",
