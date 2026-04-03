@@ -1034,6 +1034,31 @@
         "img_path": ".img/2006 TOG - Periodic global parameterization_Pasted image 20260215214409.png"
     },
     {
+        "filename": "2018 TOG - Progressive Parameterizations.md",
+        "properties": {
+            "bibtex": "@article{10.1145/3197517.3201331,\r\nauthor = {Liu, Ligang and Ye, Chunyang and Ni, Ruiqi and Fu, Xiao-Ming},\r\ntitle = {Progressive parameterizations},\r\nyear = {2018},\r\nissue_date = {August 2018},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {37},\r\nnumber = {4},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3197517.3201331},\r\ndoi = {10.1145/3197517.3201331},\r\nabstract = {We propose a novel approach, called Progressive Parameterizations, to compute foldover-free parameterizations with low isometric distortion on disk topology meshes. Instead of using the input mesh as a reference to define the objective function, we introduce a progressive reference that contains bounded distortion to the parameterized mesh and is as close as possible to the input mesh. After optimizing the bounded distortion energy between the progressive reference and the parameterized mesh, the parameterized mesh easily approaches the progressive reference, thereby also coming close to the input. By iteratively generating the progressive reference and optimizing the bounded distortion energy to update the parameterized mesh, our algorithm achieves high-quality parameterizations with strong practical reliability and high efficiency. We have demonstrated that our algorithm succeeds on a massive test data set containing over 20712 complex disk topology meshes. Compared to the state-of-the-art methods, our method has achieved higher computational efficiency and practical reliability.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\narticleno = {41},\r\nnumpages = {12},\r\nkeywords = {flip-free, foldover-free, isometric mapping, low distortion, parameterizations}\r\n}",
+            "code": "",
+            "data": "",
+            "project": "http://staff.ustc.edu.cn/~fuxm/projects/ProgressivePara/index.html",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization",
+                "progressive"
+            ],
+            "teaser": "Pasted image 20260402223557.png"
+        },
+        "bibtex_parsed": {
+            "title": "Progressive parameterizations",
+            "author": "Liu, Ligang and Ye, Chunyang and Ni, Ruiqi and Fu, Xiao-Ming",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/3197517.3201331",
+            "year": "2018",
+            "month": "July"
+        },
+        "img_path": ".img/2018 TOG - Progressive Parameterizations_Pasted image 20260402223557.png"
+    },
+    {
         "filename": "2024 CGF - Advancing Front Surface Mapping.md",
         "properties": {
             "bibtex": "@article{https://doi.org/10.1111/cgf.15026,\r\nauthor = {Livesu, M.},\r\ntitle = {Advancing Front Surface Mapping},\r\njournal = {Computer Graphics Forum},\r\nvolume = {43},\r\nnumber = {2},\r\npages = {e15026},\r\ndoi = {https://doi.org/10.1111/cgf.15026},\r\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.15026},\r\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.15026},\r\nabstract = {Abstract We present Advancing Front Mapping (AFM), a novel algorithm for the computation of injective maps to simple planar domains. AFM is inspired by the advancing front meshing paradigm, which is here revisited to operate on two embeddings at once, becoming a tool for compatible mesh generation. AFM extends the capabilities of existing robust approaches, supporting a broader set of embeddings (star-shaped polygons) with a direct approach, without resorting to intermediate constructions. Our method only relies on two topological operators (split and flip) and on the computation of segment intersections, thus permitting to compute a valid embedding without solving any numerical problem. AFM is therefore easy to implement, debug and deploy. This article is mainly focused on the presentation of the compatible advancing front idea and on the demonstration that the algorithm provably converges to an injective map. We also complement our theoretical analysis with an extensive practical validation, executing more than one billion advancing front moves on 36K mapping tasks.},\r\nyear = {2024}\r\n}",
