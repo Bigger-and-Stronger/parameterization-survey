@@ -955,6 +955,31 @@
         "img_path": ".img/1997 - 3D geometric metamorphosis based on harmonic map_Pasted image 20260323102819.png"
     },
     {
+        "filename": "2023 CGF - Surface Maps via Adaptive Triangulations.md",
+        "properties": {
+            "bibtex": "@article{https://doi.org/10.1111/cgf.14747,\nauthor = {Schmidt, P. and Pieper, D. and Kobbelt, L.},\ntitle = {Surface Maps via Adaptive Triangulations},\njournal = {Computer Graphics Forum},\nvolume = {42},\nnumber = {2},\npages = {103-117},\nkeywords = {CCS Concepts, • Computing methodologies → Computer graphics, Mesh models, Mesh geometry models},\ndoi = {https://doi.org/10.1111/cgf.14747},\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14747},\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14747},\nabstract = {Abstract We present a new method to compute continuous and bijective maps (surface homeomorphisms) between two or more genus-0 triangle meshes. In contrast to previous approaches, we decouple the resolution at which a map is represented from the resolution of the input meshes. We discretize maps via common triangulations that approximate the input meshes while remaining in bijective correspondence to them. Both the geometry and the connectivity of these triangulations are optimized with respect to a single objective function that simultaneously controls mapping distortion, triangulation quality, and approximation error. A discrete-continuous optimization algorithm performs both energy-based remeshing as well as global second-order optimization of vertex positions, parametrized via the sphere. With this, we combine the disciplines of compatible remeshing and surface map optimization in a unified formulation and make a contribution in both fields. While existing compatible remeshing algorithms often operate on a fixed pre-computed surface map, we can now globally update this correspondence during remeshing. On the other hand, bijective surface-to-surface map optimization previously required computing costly overlay meshes that are inherently tied to the input mesh resolution. We achieve significant complexity reduction by instead assessing distortion between the approximating triangulations. This new map representation is inherently more robust than previous overlay-based approaches, is less intricate to implement, and naturally supports mapping between more than two surfaces. Moreover, it enables adaptive multi-resolution schemes that, e.g., first align corresponding surface regions at coarse resolutions before refining the map where needed. We demonstrate significant speedups and increased flexibility over state-of-the art mapping algorithms at similar map quality, and also provide a reference implementation of the method.},\nyear = {2023}\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization",
+                "triangulate"
+            ],
+            "teaser": "Pasted image 20260427154609.png"
+        },
+        "bibtex_parsed": {
+            "title": "Surface Maps via Adaptive Triangulations",
+            "author": "Schmidt, P. and Pieper, D. and Kobbelt, L.",
+            "venue": "Computer Graphics Forum",
+            "doi_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14747",
+            "year": "2023",
+            "month": ""
+        },
+        "img_path": ".img/2023 CGF - Surface Maps via Adaptive Triangulations_Pasted image 20260427154609.png"
+    },
+    {
         "filename": "2023 TOG - Metric Optimization in Penner Coordinates.md",
         "properties": {
             "bibtex": "@article{10.1145/3618394,\nauthor = {Capouellez, Ryan and Zorin, Denis},\ntitle = {Metric Optimization in Penner Coordinates},\nyear = {2023},\nissue_date = {December 2023},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {42},\nnumber = {6},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3618394},\ndoi = {10.1145/3618394},\njournal = {ACM Trans. Graph.},\nmonth = dec,\narticleno = {234},\nnumpages = {19},\nkeywords = {cone metrics, conformal mapping, discrete metrics, intrinsic triangulation, parametrization, penner coordinates}\n}",
