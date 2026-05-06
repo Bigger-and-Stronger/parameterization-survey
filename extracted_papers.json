@@ -1178,6 +1178,30 @@
         "img_path": ".img/2023 TOG - Galaxy Maps - Localized Foliations for Bijective Volumetric Mapping_Pasted image 20260323104350.png"
     },
     {
+        "filename": "2026 TOG - Implicit Minimal Surfaces for Bijective Correspondences.md",
+        "properties": {
+            "bibtex": "@misc{corman2026implicitminimalsurfacesbijective,\n      title={Implicit Minimal Surfaces for Bijective Correspondences}, \n      author={Etienne Corman and Yousuf Soliman and Robin Magnet and Mark Gillespie},\n      year={2026},\n      eprint={2605.02770},\n      archivePrefix={arXiv},\n      primaryClass={cs.GR},\n      url={https://arxiv.org/abs/2605.02770}, \n}",
+            "code": "https://github.com/etcorman/implicit-minimal-surfaces",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260505130751.png"
+        },
+        "bibtex_parsed": {
+            "title": "Implicit Minimal Surfaces for Bijective Correspondences",
+            "author": "Etienne Corman and Yousuf Soliman and Robin Magnet and Mark Gillespie",
+            "venue": "",
+            "doi_url": "https://arxiv.org/abs/2605.02770",
+            "year": "2026",
+            "month": ""
+        },
+        "img_path": ".img/2026 TOG - Implicit Minimal Surfaces for Bijective Correspondences_Pasted image 20260505130751.png"
+    },
+    {
         "filename": "2024 CGF - Advancing Front Surface Mapping.md",
         "properties": {
             "bibtex": "@article{https://doi.org/10.1111/cgf.15026,\r\nauthor = {Livesu, M.},\r\ntitle = {Advancing Front Surface Mapping},\r\njournal = {Computer Graphics Forum},\r\nvolume = {43},\r\nnumber = {2},\r\npages = {e15026},\r\ndoi = {https://doi.org/10.1111/cgf.15026},\r\nurl = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.15026},\r\neprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.15026},\r\nabstract = {Abstract We present Advancing Front Mapping (AFM), a novel algorithm for the computation of injective maps to simple planar domains. AFM is inspired by the advancing front meshing paradigm, which is here revisited to operate on two embeddings at once, becoming a tool for compatible mesh generation. AFM extends the capabilities of existing robust approaches, supporting a broader set of embeddings (star-shaped polygons) with a direct approach, without resorting to intermediate constructions. Our method only relies on two topological operators (split and flip) and on the computation of segment intersections, thus permitting to compute a valid embedding without solving any numerical problem. AFM is therefore easy to implement, debug and deploy. This article is mainly focused on the presentation of the compatible advancing front idea and on the demonstration that the algorithm provably converges to an injective map. We also complement our theoretical analysis with an extensive practical validation, executing more than one billion advancing front moves on 36K mapping tasks.},\r\nyear = {2024}\r\n}",
