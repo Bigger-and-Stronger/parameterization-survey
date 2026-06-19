@@ -125,6 +125,30 @@
         "img_path": ".img/2020 - A Mesh Generation Perspective on Robust Mappings_Pasted image 20260323104045.png"
     },
     {
+        "filename": "2017 TOG - Scalable Locally Injective Mappings.md",
+        "properties": {
+            "bibtex": "@article{10.1145/2983621,\nauthor = {Rabinovich, Michael and Poranne, Roi and Panozzo, Daniele and Sorkine-Hornung, Olga},\ntitle = {Scalable Locally Injective Mappings},\nyear = {2017},\nissue_date = {April 2017},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {36},\nnumber = {2},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/2983621},\ndoi = {10.1145/2983621},\nabstract = {We present a scalable approach for the optimization of flip-preventing energies in the general context of simplicial mappings and specifically for mesh parameterization. Our iterative minimization is based on the observation that many distortion energies can be optimized indirectly by minimizing a family of simpler proxy energies. Minimization of these proxies is a natural extension of the local/global minimization of the ARAP energy. Our algorithm is simple to implement and scales to datasets with millions of faces. We demonstrate our approach for the computation of maps that minimize a conformal or isometric distortion energy, both in two and three dimensions. In addition to mesh parameterization, we show that our algorithm can be applied to mesh deformation and mesh quality improvement.},\njournal = {ACM Trans. Graph.},\nmonth = apr,\narticleno = {16},\nnumpages = {16},\nkeywords = {Parameterization, bijectivity, scalability}\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260319220925.png"
+        },
+        "bibtex_parsed": {
+            "title": "Scalable Locally Injective Mappings",
+            "author": "Rabinovich, Michael and Poranne, Roi and Panozzo, Daniele and Sorkine-Hornung, Olga",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/2983621",
+            "year": "2017",
+            "month": "April"
+        },
+        "img_path": ".img/2017 TOG - Scalable Locally Injective Mappings_Pasted image 20260319220925.png"
+    },
+    {
         "filename": "2026 arXiv - Volumetric Functional Maps.md",
         "properties": {
             "bibtex": "@misc{maggioli2026volumetricfunctionalmaps,\n      title={Volumetric Functional Maps}, \n      author={Filippo Maggioli and Simone Melzi and Marco Livesu},\n      year={2026},\n      eprint={2506.13212},\n      archivePrefix={arXiv},\n      primaryClass={cs.GR},\n      url={https://arxiv.org/abs/2506.13212}, \n}",
@@ -248,6 +272,30 @@
         "img_path": ".img/2021 TOG - Guaranteed globally injective 3D deformation processing_Pasted image 20260323103234.png"
     },
     {
+        "filename": "2014 TOG - Locally injective parametrization with arbitrary fixed boundaries.md",
+        "properties": {
+            "bibtex": "ad-cite\n@article{10.1145/2601097.2601227,\nauthor = {Weber, Ofir and Zorin, Denis},\ntitle = {Locally injective parametrization with arbitrary fixed boundaries},\nyear = {2014},\nissue_date = {July 2014},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {33},\nnumber = {4},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/2601097.2601227},\ndoi = {10.1145/2601097.2601227},\njournal = {ACM Trans. Graph.},\nmonth = jul,\narticleno = {75},\nnumpages = {12},\nkeywords = {remeshing, quasiconformal, quadrangulation, parametrization, deformation, conformal mapping, bijective mapping}\n}",
+            "code": "https://github.com/hankstag/locally_injective_map",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260218123746.png"
+        },
+        "bibtex_parsed": {
+            "title": "Locally injective parametrization with arbitrary fixed boundaries",
+            "author": "Weber, Ofir and Zorin, Denis",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/2601097.2601227",
+            "year": "2014",
+            "month": "July"
+        },
+        "img_path": ".img/2014 TOG - Locally injective parametrization with arbitrary fixed boundaries_Pasted image 20260218123746.png"
+    },
+    {
         "filename": "2019 TOG - Progressive embedding.md",
         "properties": {
             "bibtex": "@article{10.1145/3306346.3323012,\r\nauthor = {Shen, Hanxiao and Jiang, Zhongshi and Zorin, Denis and Panozzo, Daniele},\r\ntitle = {Progressive embedding},\r\nyear = {2019},\r\nissue_date = {August 2019},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {38},\r\nnumber = {4},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3306346.3323012},\r\ndoi = {10.1145/3306346.3323012},\r\nabstract = {Tutte embedding is one of the most common building blocks in geometry processing algorithms due to its simplicity and provable guarantees. Although provably correct in infinite precision arithmetic, it fails in challenging cases when implemented using floating point arithmetic, largely due to the induced exponential area changes.We propose Progressive Embedding, with similar theoretical guarantees to Tutte embedding, but more resilient to the rounding error of floating point arithmetic. Inspired by progressive meshes, we collapse edges on an invalid embedding to a valid, simplified mesh, then insert points back while maintaining validity. We demonstrate the robustness of our method by computing embeddings for a large collection of disk topology meshes.By combining our robust embedding with a variant of the matchmaker algorithm, we propose a general algorithm for the problem of mapping multiply connected domains with arbitrary hard constraints to the plane, with applications in texture mapping and remeshing.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\narticleno = {32},\r\nnumpages = {13},\r\nkeywords = {embedding, locally injective Maps, mesh parametrization, robust geometry processing}\r\n}",
@@ -369,6 +417,33 @@
             "month": "December"
         },
         "img_path": ".img/2016 TOG - Hyperbolic orbifold tutte embeddings_Pasted image 20260323222106.png"
+    },
+    {
+        "filename": "2024 TOG - A Progressive Embedding Approach to Bijective Tetrahedral Maps drivenby Cluster Mesh Topology.md",
+        "properties": {
+            "bibtex": "@article{10.1145/3687992,\r\nauthor = {Nigolian, Valentin Z\\'{e}non and Campen, Marcel and Bommes, David},\r\ntitle = {A Progressive Embedding Approach to Bijective Tetrahedral Maps driven by Cluster Mesh Topology},\r\nyear = {2024},\r\nissue_date = {December 2024},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {43},\r\nnumber = {6},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3687992},\r\ndoi = {10.1145/3687992},\r\nabstract = {We present a novel algorithm to map ball-topology tetrahedral meshes onto star-shaped domains with guarantees regarding bijectivity. Our algorithm is based on the recently introduced idea of Shrink-and-Expand, where images of interior vertices are initially clustered at one point (Shrink-), before being sequentially moved to non-degenerate positions yielding a bijective map (-and-Expand). In this context, we introduce the concept of the cluster mesh, i.e. the unexpanded interior mesh consisting of geometrically degenerate simplices. Using local, per-vertex connectivity information solely from the cluster mesh, we show that a viable expansion sequence guaranteed to produce a bijective map can always be found as long as the mesh is shellable. In addition to robustness guarantees for this ubiquitous class of inputs, other practically relevant benefits include improved parsimony and reduced algorithmic complexity. While inheriting some of the worst-case high run time requirements of the state of the art, significant acceleration for the average case is experimentally demonstrated.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = nov,\r\narticleno = {170},\r\nnumpages = {14},\r\nkeywords = {tetrahedral mesh, volumetric maps, progressive embeddings, bijection, homeomorphism, star-shaped}\r\n}",
+            "code": "https://github.com/cgg-bern/cluster-mesh-SAE",
+            "data": "https://www.algohex.eu/publications/cluster-mesh-sae/",
+            "project": "https://www.algohex.eu/publications/cluster-mesh-sae/",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization",
+                "volumetric_mapping",
+                "progressive",
+                "bijective"
+            ],
+            "teaser": "Pasted image 20260319230918.png"
+        },
+        "bibtex_parsed": {
+            "title": "A Progressive Embedding Approach to Bijective Tetrahedral Maps driven by Cluster Mesh Topology",
+            "author": "Nigolian, Valentin Z\\'enon and Campen, Marcel and Bommes, David",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/3687992",
+            "year": "2024",
+            "month": "November"
+        },
+        "img_path": ".img/2024 TOG - A Progressive Embedding Approach to Bijective Tetrahedral Maps drivenby Cluster Mesh Topology_Pasted image 20260319230918.png"
     },
     {
         "filename": "2011 CGF - CubeCover – Parameterization of 3D Volumes.md",
@@ -935,6 +1010,32 @@
         "img_path": ".img/2023 CGF - VOLMAP：a Large Scale Benchmark for Volume Mappings to Simple Base Domains_Pasted image 20241004111316.png"
     },
     {
+        "filename": "2024 TOG - Bijective Volumetric Mapping via Star Decomposition.md",
+        "properties": {
+            "bibtex": "@article{10.1145/3687950,\r\nauthor = {Hinderink, Steffen and Br\\\"{u}ckler, Hendrik and Campen, Marcel},\r\ntitle = {Bijective Volumetric Mapping via Star Decomposition},\r\nyear = {2024},\r\nissue_date = {December 2024},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {43},\r\nnumber = {6},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3687950},\r\ndoi = {10.1145/3687950},\r\nabstract = {A method for the construction of bijective volumetric maps between 3D shapes is presented. Arbitrary shapes of ball-topology are supported, overcoming restrictions of previous methods to convex or star-shaped targets. In essence, the mapping problem is decomposed into a set of simpler mapping problems, each of which can be solved with previous methods for discrete star-shaped mapping problems. Addressing the key challenges in this endeavor, algorithms are described to reliably construct structurally compatible partitions of two shapes with constraints regarding star-shapedness and to compute a parsimonious common refinement of two triangulations.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = nov,\r\narticleno = {168},\r\nnumpages = {11},\r\nkeywords = {volumetric parametrization, homeomorphism, decomposition, star-shaped}\r\n}",
+            "code": "https://github.com/SteffenHinderink/StarDecompositionMaps",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization",
+                "volumetric_mapping",
+                "bijective"
+            ],
+            "teaser": "Pasted image 20260319230824.png"
+        },
+        "bibtex_parsed": {
+            "title": "Bijective Volumetric Mapping via Star Decomposition",
+            "author": "Hinderink, Steffen and Br\\\"uckler, Hendrik and Campen, Marcel",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/3687950",
+            "year": "2024",
+            "month": "November"
+        },
+        "img_path": ".img/2024 TOG - Bijective Volumetric Mapping via Star Decomposition_Pasted image 20260319230824.png"
+    },
+    {
         "filename": "2003 TOG - Matchmaker - constructing constrained texture maps.md",
         "properties": {
             "bibtex": "@article{10.1145/882262.882271,\r\nauthor = {Kraevoy, Vladislav and Sheffer, Alla and Gotsman, Craig},\r\ntitle = {Matchmaker: constructing constrained texture maps},\r\nyear = {2003},\r\nissue_date = {July 2003},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {22},\r\nnumber = {3},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/882262.882271},\r\ndoi = {10.1145/882262.882271},\r\nabstract = {Texture mapping enhances the visual realism of 3D models by adding fine details. To achieve the best results, it is often necessary to force a correspondence between some of the details of the texture and the features of the model.The most common method for mapping texture onto 3D meshes is to use a planar parameterization of the mesh. This, however, does not reflect any special correspondence between the mesh geometry and the texture. The Matchmaker algorithm presented here forces user-defined feature correspondence for planar parameterization of meshes. This is achieved by adding positional constraints to the planar parameterization. Matchmaker allows users to introduce scores of constraints while maintaining a valid one-to-one mapping between the embedding and the 3D surface. Matchmaker's constraint mechanism can be used for other applications requiring parameterization besides texture mapping, such as morphing and remeshing.Matchmaker begins with an unconstrained planar embedding of the 3D mesh generated by conventional methods. It moves the constrained vertices to the required positions by matching a triangulation of these positions to a triangulation of the planar mesh formed by paths between constrained vertices. The matching triangulations are used to generate a new parameterization that satisfies the constraints while minimizing the deviation from the original 3D geometry.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\npages = {326–333},\r\nnumpages = {8},\r\nkeywords = {parameterization, texture mapping, triangle meshes}\r\n}",
@@ -1079,6 +1180,31 @@
             "month": "January"
         },
         "img_path": ".img/2021 TOG - Direct Seamless Parametrization_Pasted image 20260323101925.png"
+    },
+    {
+        "filename": "2020 CAD - Efficient piecewise higher-order parametrization of discrete surfaces with local and global injectivity.md",
+        "properties": {
+            "bibtex": "@article{MANDAD2020102862,\ntitle = {Efficient piecewise higher-order parametrization of discrete surfaces with local and global injectivity},\njournal = {Computer-Aided Design},\nvolume = {127},\npages = {102862},\nyear = {2020},\nissn = {0010-4485},\ndoi = {https://doi.org/10.1016/j.cad.2020.102862},\nurl = {https://www.sciencedirect.com/science/article/pii/S0010448520300555},\nauthor = {Manish Mandad and Marcel Campen},\nkeywords = {Bézier triangles, Curved meshes, Hessian majorization}\n}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "high_order",
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260228150457.png"
+        },
+        "bibtex_parsed": {
+            "title": "Efficient piecewise higher-order parametrization of discrete surfaces with local and global injectivity",
+            "author": "Manish Mandad and Marcel Campen",
+            "venue": "Computer-Aided Design",
+            "doi_url": "https://www.sciencedirect.com/science/article/pii/S0010448520300555",
+            "year": "2020",
+            "month": ""
+        },
+        "img_path": ".img/2020 CAD - Efficient piecewise higher-order parametrization of discrete surfaces with local and global injectivity_Pasted image 20260228150457.png"
     },
     {
         "filename": "2017 TOG - Simplicial complex augmentation framework for bijective maps.md",
@@ -1300,6 +1426,31 @@
             "month": ""
         },
         "img_path": ".img/2019 CGF - Practical Foldover-Free Volumetric Mapping Construction_Pasted image 20260323103600.png"
+    },
+    {
+        "filename": "2024 TOG - Stripe Embedding - Efficient Maps with Exact Numeric Computation.md",
+        "properties": {
+            "bibtex": "@article{10.1145/3687915,\nauthor = {Livesu, Marco},\ntitle = {Stripe Embedding: Efficient Maps with Exact Numeric Computation},\nyear = {2024},\nissue_date = {December 2024},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {43},\nnumber = {6},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3687915},\ndoi = {10.1145/3687915},\njournal = {ACM Trans. Graph.},\nmonth = nov,\narticleno = {167},\nnumpages = {14},\nkeywords = {surface mapping, tutte embedding}\n}",
+            "code": "https://github.com/mlivesu/cinolib",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "exact",
+                "parameterization"
+            ],
+            "teaser": "Pasted image 20260228150912.png"
+        },
+        "bibtex_parsed": {
+            "title": "Stripe Embedding: Efficient Maps with Exact Numeric Computation",
+            "author": "Livesu, Marco",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/3687915",
+            "year": "2024",
+            "month": "November"
+        },
+        "img_path": ".img/2024 TOG - Stripe Embedding - Efficient Maps with Exact Numeric Computation_Pasted image 20260228150912.png"
     },
     {
         "filename": "2007 - Mesh Parameterization Methods and Their Applications.md",
