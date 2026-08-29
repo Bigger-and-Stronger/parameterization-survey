@@ -275,6 +275,31 @@
         "img_path": ".img/2019 TOG - Progressive embedding_Pasted image 20260320104106.png"
     },
     {
+        "filename": "2026 TVCG - Efficient Computation of Integer-Constrained Cones for Conformal Parameterizations.md",
+        "properties": {
+            "bibtex": "@ARTICLE{11408144,\n  author={Du, Wei and Fang, Qing and Liu, Ligang and Fu, Xiao-Ming},\n  journal={IEEE Transactions on Visualization and Computer Graphics}, \n  title={Efficient Computation of Integer-Constrained Cones for Conformal Parameterizations}, \n  year={2026},\n  volume={32},\n  number={7},\n  pages={5304-5316},\n  keywords={Distortion;Optimization;Vectors;Nonlinear distortion;Iterative methods;Computational efficiency;Programming;Mesh generation;Manifolds;Finite element analysis;Conformal parameterization;cone singularities;discrete optimization;mesh processing},\n  doi={10.1109/TVCG.2026.3667327}}",
+            "code": "",
+            "data": "",
+            "project": "",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "parameterization",
+                "conformal"
+            ],
+            "teaser": "Pasted image 20260818131348.png"
+        },
+        "bibtex_parsed": {
+            "title": "Efficient Computation of Integer-Constrained Cones for Conformal Parameterizations",
+            "author": "Du, Wei and Fang, Qing and Liu, Ligang and Fu, Xiao-Ming",
+            "venue": "IEEE Transactions on Visualization and Computer Graphics",
+            "doi_url": "https://doi.org/10.1109/TVCG.2026.3667327",
+            "year": "2026",
+            "month": ""
+        },
+        "img_path": ".img/2026 TVCG - Efficient Computation of Integer-Constrained Cones for Conformal Parameterizations_Pasted image 20260818131348.png"
+    },
+    {
         "filename": "2023 TOG - Expansion Cones - A Progressive Volumetric Mapping Framework.md",
         "properties": {
             "bibtex": "@article{10.1145/3592421,\r\nauthor = {Nigolian, Valentin Z\\'{e}non and Campen, Marcel and Bommes, David},\r\ntitle = {Expansion Cones: A Progressive Volumetric Mapping Framework},\r\nyear = {2023},\r\nissue_date = {August 2023},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {42},\r\nnumber = {4},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3592421},\r\ndoi = {10.1145/3592421},\r\nabstract = {Volumetric mapping is a ubiquitous and difficult problem in Geometry Processing and has been the subject of research in numerous and various directions. While several methods show encouraging results, the field still lacks a general approach with guarantees regarding map bijectivity. Through this work, we aim at opening the door to a new family of methods by providing a novel framework based on the concept of progressive expansion. Starting from an initial map of a tetrahedral mesh whose image may contain degeneracies but no inversions, we incrementally adjust vertex images to expand degenerate elements. By restricting movement to so-called expansion cones, it is done in such a way that the number of degenerate elements decreases in a strictly monotonic manner, without ever introducing any inversion. Adaptive local refinement of the mesh is performed to facilitate this process. We describe a prototype algorithm in the realm of this framework for the computation of maps from ball-topology tetrahedral meshes to convex or star-shaped domains. This algorithm is evaluated and compared to state-of-the-art methods, demonstrating its benefits in terms of bijectivity. We also discuss the associated cost in terms of sometimes significant mesh refinement to obtain the necessary degrees of freedom required for establishing a valid mapping. Our conclusions include that while this algorithm is only of limited immediate practical utility due to efficiency concerns, the general framework has the potential to inspire a range of novel methods improving on the efficiency aspect.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\narticleno = {131},\r\nnumpages = {19},\r\nkeywords = {tetrahedral mesh, Tutte embedding, bijection, homeomorphism, star-shaped}\r\n}",

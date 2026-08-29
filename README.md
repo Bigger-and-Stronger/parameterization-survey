@@ -10,12 +10,13 @@ It is currently a work in progress and is updated daily via **GitHub Actions** (
 
 ### All Tags
 
-`parameterization` `bijective` `cross_field` `directional` `exact` `hex_meshing` `high_order` `injectivity` `integrable` `moving_frames` `penner` `progressive` `quadrangulate` `seamless` `survey` `tracing` `triangulate` `volumetric_mapping`
+`parameterization` `bijective` `conformal` `cross_field` `directional` `exact` `hex_meshing` `high_order` `injectivity` `integrable` `moving_frames` `penner` `progressive` `quadrangulate` `seamless` `survey` `tracing` `triangulate` `volumetric_mapping`
 
 
 
 | Teaser | Information |
 | :--- | :--- |
+| <img src='.img/2026 TVCG - Efficient Computation of Integer-Constrained Cones for Conformal Parameterizations_Pasted image 20260818131348.png' width='500' height='300' style='object-fit: cover;'> | **Efficient Computation of Integer-Constrained Cones for Conformal Parameterizations**<br>*Du, Wei and Fang, Qing and [Liu, Ligang](http://staff.ustc.edu.cn/~lgliu/) and [Fu, Xiao-Ming](https://ustc-gcl-f.github.io/)*<br>2026, IEEE Transactions on Visualization and Computer Graphics<br>tags: `parameterization` `conformal`<br>[[doi]](https://doi.org/10.1109/TVCG.2026.3667327) |
 | <img src='.img/2026 TOG - Implicit Minimal Surfaces for Bijective Correspondences_Pasted image 20260505130751.png' width='500' height='300' style='object-fit: cover;'> | **Implicit Minimal Surfaces for Bijective Correspondences**<br>*[Etienne Corman](https://etcorman.github.io/) and Yousuf Soliman and Robin Magnet and Mark Gillespie*<br>2026<br>tags: `parameterization`<br>[[doi]](https://arxiv.org/abs/2605.02770) &nbsp; [[code]](https://github.com/etcorman/implicit-minimal-surfaces) |
 | <img src='.img/2026 arXiv - Volumetric Functional Maps_Pasted image 20260328122027.png' width='500' height='300' style='object-fit: cover;'> | **Volumetric Functional Maps**<br>*Filippo Maggioli and Simone Melzi and [Marco Livesu](http://pers.ge.imati.cnr.it/livesu/)*<br>2026<br>tags: `parameterization` `volumetric_mapping`<br>[[doi]](https://arxiv.org/abs/2506.13212) |
 | <img src='.img/2025 TOG - Feature-Aligned Parametrization in Penner Coordinates_Pasted image 20260201213714.png' width='500' height='300' style='object-fit: cover;'> | **Feature-Aligned Parametrization in Penner Coordinates**<br>*Capouellez, Ryan and Singh, Rodrigo and [Heistermann, Martin](https://mheistermann.de/) and [Bommes, David](https://www.graphics.rwth-aachen.de/person/6/) and [Zorin, Denis](https://cims.nyu.edu/gcl/denis.html)*<br>2025 July, ACM Trans. Graph.<br>tags: `parameterization` `penner` `quadrangulate`<br>[[doi]](https://doi.org/10.1145/3731216) &nbsp; [[project]](https://www.algohex.eu/publications/feature-aligned-parametrization-in-penner-coordinates/) &nbsp; [[code]](https://github.com/rjc8237/feature-aligned-penner) |
