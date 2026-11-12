@@ -100,6 +100,33 @@
         "img_path": ".img/2024 TOG - Seamless Parametrization in Penner Coordinates_Pasted image 20260623122322.png"
     },
     {
+        "filename": "2022 TOG - Volume parametrization quantization for hexahedral meshing.md",
+        "properties": {
+            "bibtex": "@article{10.1145/3528223.3530123,\r\nauthor = {Br\\\"{u}ckler, Hendrik and Bommes, David and Campen, Marcel},\r\ntitle = {Volume parametrization quantization for hexahedral meshing},\r\nyear = {2022},\r\nissue_date = {July 2022},\r\npublisher = {Association for Computing Machinery},\r\naddress = {New York, NY, USA},\r\nvolume = {41},\r\nnumber = {4},\r\nissn = {0730-0301},\r\nurl = {https://doi.org/10.1145/3528223.3530123},\r\ndoi = {10.1145/3528223.3530123},\r\nabstract = {Developments in the field of parametrization-based quad mesh generation on surfaces have been impactful over the past decade. In this context, an important advance has been the replacement of error-prone rounding in the generation of integer-grid maps, by robust quantization methods. In parallel, parametrization-based hex mesh generation for volumes has been advanced. In this volumetric context, however, the state-of-the-art still relies on fragile rounding, not rarely producing defective meshes, especially when targeting a coarse mesh resolution. We present a method to robustly quantize volume parametrizations, i.e., to determine guaranteed valid choices of integers for 3D integer-grid maps. Inspired by the 2D case, we base our construction on a non-conforming cell decomposition of the volume, a 3D analogue of a T-mesh. In particular, we leverage the motorcycle complex, a recent generalization of the motorcycle graph, for this purpose. Integer values are expressed in a differential manner on the edges of this complex, enabling the efficient formulation of the conditions required to strictly prevent forcing the map into degeneration. Applying our method in the context of hexahedral meshing, we demonstrate that hexahedral meshes can be generated with significantly improved flexibility.},\r\njournal = {ACM Trans. Graph.},\r\nmonth = jul,\r\narticleno = {60},\r\nnumpages = {19},\r\nkeywords = {base complex, block decomposition, block-structured, hexahedral mesh, multi-block, t-mesh, volume mesh}\r\n}",
+            "code": "https://github.com/HendrikBrueckler/QGP3D",
+            "data": "",
+            "project": "https://www.algohex.eu/publications/volume-parameterization-quantization-for-hexahedral-meshing/",
+            "slide": "",
+            "supplemental": "",
+            "tags": [
+                "quantization",
+                "parameterization",
+                "hex_meshing",
+                "volumetric_mapping"
+            ],
+            "teaser": "Pasted image 20260319221809.png"
+        },
+        "bibtex_parsed": {
+            "title": "Volume parametrization quantization for hexahedral meshing",
+            "author": "Br\\\"uckler, Hendrik and Bommes, David and Campen, Marcel",
+            "venue": "ACM Trans. Graph.",
+            "doi_url": "https://doi.org/10.1145/3528223.3530123",
+            "year": "2022",
+            "month": "July"
+        },
+        "img_path": ".img/2022 TOG - Volume parametrization quantization for hexahedral meshing_Pasted image 20260319221809.png"
+    },
+    {
         "filename": "2021 TOG - Foldover-free maps in 50 lines of code.md",
         "properties": {
             "bibtex": "@article{10.1145/3450626.3459847,\nauthor = {Garanzha, Vladimir and Kaporin, Igor and Kudryavtseva, Liudmila and Protais, Fran\\c{c}ois and Ray, Nicolas and Sokolov, Dmitry},\ntitle = {Foldover-free maps in 50 lines of code},\nyear = {2021},\nissue_date = {August 2021},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {40},\nnumber = {4},\nissn = {0730-0301},\nurl = {https://doi.org/10.1145/3450626.3459847},\ndoi = {10.1145/3450626.3459847},\njournal = {ACM Trans. Graph.},\nmonth = jul,\narticleno = {102},\nnumpages = {16},\nkeywords = {parameterization, mesh untangling, injective mapping}\n}",
